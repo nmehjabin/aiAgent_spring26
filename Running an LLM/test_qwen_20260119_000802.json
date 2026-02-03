@@ -1,0 +1,32 @@
+{
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "accuracy": 8.73015873015873,
+  "real_time": 246.57654881477356,
+  "cpu_time": 1881.31,
+  "results": [
+    {
+      "subject": "astronomy",
+      "correct": 14,
+      "total": 152,
+      "accuracy": 9.210526315789473,
+      "timing": {
+        "real_time": 168.88486194610596,
+        "cpu_time": 1278.62,
+        "user_time": 1275.03,
+        "system_time": 3.5900000000000007
+      }
+    },
+    {
+      "subject": "business_ethics",
+      "correct": 8,
+      "total": 100,
+      "accuracy": 8.0,
+      "timing": {
+        "real_time": 75.37102937698364,
+        "cpu_time": 602.69,
+        "user_time": 601.49,
+        "system_time": 1.1999999999999993
+      }
+    }
+  ]
+}
