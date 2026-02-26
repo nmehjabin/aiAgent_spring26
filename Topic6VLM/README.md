@@ -106,9 +106,55 @@ State Machine: absent -> present = ENTER event
 ```
 
 ## Results 
+### Exercise 1: Vision-Language Chat Agent
 
 
 <img width="970" height="731" alt="chat_histroy" src="https://github.com/user-attachments/assets/cbd3dffb-5c28-46eb-863f-22a292832a18" />
 
+**Observations**: 
+- Mutli-turn memory worked correctly. LlaVA used the user's correction in turn 3 to update its understanding.
+- LlaVA initially undercounted the cats (it did not recognize the existance of the other cat), shows limitation of VLMs with counting or distingusih of multiple similar objects.
+- When corrected by the user, the model accepted the corrections and gave an accurate follow-up response
 
 
+### Exercise 2: Video Surveillance Agent
+
+**Test video:** ~24 second clip of a scene where a person enters and exits the frame multiple times.
+
+**Settings:** Frame interval = 2 seconds, Model = `llava`
+
+**UI:** Gradio web interface at `http://127.0.0.1:7860`
+
+#### Detection Events Log and Summary
+
+<img width="1396" height="958" alt="Screenshot 2026-02-26 at 12 02 38 PM" src="https://github.com/user-attachments/assets/4d6394c0-2dc4-44e6-a101-6e3d6c9c2d05" />
+<img width="1187" height="836" alt="Screenshot 2026-02-26 at 1 13 02 PM" src="https://github.com/user-attachments/assets/74b9ac00-c2a3-45fe-9043-69b800fd087a" />
+
+**Observations:**
+
+- LLaVA successfully detected person entry and exit events with correct timestamps
+- The state machine correctly logged only *changes* in state, avoiding duplicate events
+- Short exits (2 seconds) were still captured, showing sensitivity at 2-second intervals
+- Processing time was approximately 6–8 seconds per frame on a MacBook Air (no GPU)
+
+## Challenges & Lesson Learned
+| Challenge | Solution |
+|---|---|
+| `ipywidgets` renders as raw text in terminal | Switched to **Gradio** for local Mac use |
+| `ResponseError: model runner unexpectedly stopped` | Used smaller model (`llava:7b`), enabled GPU in Colab, still didn't work so ran everything finally locally |
+| `FileUpload.value` — `AttributeError: tuple has no .values()` | Fixed for ipywidgets v8: used `val[0]` instead of `list(val.values())[0]`, old version used tuple struct |
+| `RuntimeError: no current event loop in thread` | Uninstalled `edge-tts` (TTS not needed for core exercise) |
+| `TypeError: unexpected keyword argument 'theme'` | Upgraded Gradio with `pip install --upgrade gradio` |
+
+### Key Takeaways
+
+**LLaVA limitations discovered:**
+- **Counting is unreliable** — LLaVA said "one cat" when there were clearly two visible
+- **Free-text output requires parsing** — responses are natural language, not structured JSON, requiring keyword search
+- **Speed** — ~8 seconds per frame on a MacBook Air CPU makes real-time analysis impractical without a GPU
+- **Context correction works** — in multi-turn chat, LLaVA accepted user corrections and updated its understanding
+
+**LangGraph concepts applied:**
+- `AgentState` with `add_messages` reducer for persistent conversation memory
+- Nodes as pure functions (state → state update)
+- Graph compiled with `START → chat_node → END` flow, re-invoked each turn
