@@ -1,0 +1,296 @@
+
+## Task: Experiment with top_k(k=3, k=5, k=10) 
+
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+
+=================================================================
+[Q1] (enumeration) What are ALL the maintenance tasks mentioned in the manual?
+=================================================================
+
+  top_k= 3  unique_sources=3  top_score=0.4139  avg_score=0.4127  score_drop=0.0036
+  Sources: ['ModelT-01-10.txt', 'ModelT-01-10-ocr.pdf', 'Ford-Model-T-Man-1919-ocr.pdf']
+  Answer: The maintenance tasks mentioned in the manual include checking oil and water levels, ensuring proper lubrication, and adjusting the car's settings as needed. Additionally, the text suggests that driving the car slowly and carefully after its initial ...
+
+  top_k= 5  unique_sources=5  top_score=0.4139  avg_score=0.4097  score_drop=0.0134
+  Sources: ['ModelT-01-10-ocr.pdf', 'Ford-Model-T-Man-1919.txt', 'Ford-Model-T-Man-1919-ocr.pdf', 'ModelT-41-50.txt', 'ModelT-01-10.txt']
+  Answer: The maintenance tasks mentioned in the manual include checking oil and water levels, ensuring proper lubrication, adjusting tire pressure, inspecting brakes, changing spark plugs, cleaning the radiator, replacing fluids like coolant and transmission ...
+
+  top_k=10  unique_sources=5  top_score=0.4139  avg_score=0.3961  score_drop=0.0435
+  Sources: ['ModelT-01-10-ocr.pdf', 'Ford-Model-T-Man-1919.txt', 'Ford-Model-T-Man-1919-ocr.pdf', 'ModelT-41-50.txt', 'ModelT-01-10.txt']
+  Answer: The maintenance tasks mentioned in the manual include filling the hub cap with grease and screwing it in place on the hub, removing and cleaning the wheels every three or four months using kerosene, adjusting the bearings after repacking them with cl...
+
+  Progress saved (3 rows)
+
+=================================================================
+[Q2] (comparison) Compare the procedure for adjusting the transmission bands vs. adjusting the carburetor.
+=================================================================
+
+  top_k= 3  unique_sources=2  top_score=0.5644  avg_score=0.5634  score_drop=0.0030
+  Sources: ['Ford-Model-T-Man-1919-ocr.pdf', 'ModelT-21-30-ocr.pdf']
+  Answer: Both the transmission bands and the carburetor require adjustments to control their functions effectively. For the transmission bands, they are adjusted using a band brake or clutch pedal, which allows precise control over the engagement and disengag...
+
+  top_k= 5  unique_sources=3  top_score=0.5644  avg_score=0.5607  score_drop=0.0125
+  Sources: ['ModelT-21-30.txt', 'Ford-Model-T-Man-1919-ocr.pdf', 'ModelT-21-30-ocr.pdf']
+  Answer: Both the transmission bands and the carburetor require adjustments to ensure optimal performance. For the transmission bands, the procedure involves observing the angle of the adjusting rod when the engine runs smoothly. This observation helps determ...
+
+  top_k=10  unique_sources=5  top_score=0.5644  avg_score=0.5525  score_drop=0.0249
+  Sources: ['ModelT-31-40-ocr.pdf', 'Ford-Model-T-Man-1919.txt', 'ModelT-21-30.txt', 'Ford-Model-T-Man-1919-ocr.pdf', 'ModelT-21-30-ocr.pdf']
+  Answer: Both procedures involve adjusting components related to the vehicle's operation. For the transmission bands, they can be tightened using a locking nut and an adjusting screw, while for the carburetor, adjustments are made through the dash adjustment ...
+
+  Progress saved (6 rows)
+
+=================================================================
+[Q3] (aggregation) What tools and supplies does the manual say I need to maintain a Model T?
+=================================================================
+
+  top_k= 3  unique_sources=3  top_score=0.3570  avg_score=0.3534  score_drop=0.0066
+  Sources: ['ModelT-61-62-ocr.pdf', 'ModelT-01-10.txt', 'ModelT-61-62.txt']
+  Answer: To maintain a Model T truck as described in this manual, you would need the following tools and supplies:
+
+- Terminal (cut no. 2)
+- Crank salt rear bearing
+- Crank spring
+- Crank steve
+- Camshaft rear bearing
+- Camshaft front bearing
+- Crank case O-r...
+
+  top_k= 5  unique_sources=5  top_score=0.3570  avg_score=0.3449  score_drop=0.0249
+  Sources: ['Ford-Model-T-Man-1919.txt', 'ModelT-61-62.txt', 'ModelT-51-60.txt', 'ModelT-61-62-ocr.pdf', 'ModelT-01-10.txt']
+  Answer: To maintain a Model T truck, you will need the following tools and supplies:
+
+1. A wrench or socket set
+2. A Phillips screwdriver
+3. A flathead screwdriver
+4. A torque wrench
+5. Socket sets with appropriate sizes
+6. Replacement parts such as cranksha...
+
+  top_k=10  unique_sources=8  top_score=0.3570  avg_score=0.3368  score_drop=0.0355
+  Sources: ['ModelT-01-10-ocr.pdf', 'Ford-Model-T-Man-1919.txt', 'ModelT-61-62.txt', 'ModelT-51-60.txt', 'Ford-Model-T-Man-1919-ocr.pdf', 'ModelT-61-62-ocr.pdf', 'ModelT-41-50.txt', 'ModelT-01-10.txt']
+  Answer: According to the provided text, you will need the following tools and supplies to maintain your Model T truck:
+
+1. Clean grease for lubricating the crankshaft spring and connecting rod bearing.
+2. A wrench for tightening bolts.
+3. A socket set for re...
+
+  Progress saved (9 rows)
+
+=================================================================
+[Q4] (safety_summary) Summarize all safety warnings and cautions mentioned in the manual.
+=================================================================
+
+  top_k= 3  unique_sources=3  top_score=0.3510  avg_score=0.3456  score_drop=0.0161
+  Sources: ['ModelT-41-50.txt', 'Ford-Model-T-Man-1919.txt', 'Ford-Model-T-Man-1919-ocr.pdf']
+  Answer: Safety warnings and cautions mentioned in the manual include:
+
+1. Lubrication issues: Inspect the front spring and front spring perches periodically to check if new bushings are needed to address excessive vibrations.
+2. Steering gear maintenance: Ch...
+
+  top_k= 5  unique_sources=5  top_score=0.3510  avg_score=0.3396  score_drop=0.0247
+  Sources: ['Ford-Model-T-Man-1919.txt', 'Ford-Model-T-Man-1919-ocr.pdf', 'ModelT-51-60.txt', 'ModelT-21-30-ocr.pdf', 'ModelT-41-50.txt']
+  Answer: Safety warnings and cautions mentioned in the manual include:
+
+1. Lubrication issues: Inspect the front spring and front spring perches periodically to check if new bushings are needed to address excessive vibrations.
+2. Electrical system problems: C...
+
+  top_k=10  unique_sources=7  top_score=0.3510  avg_score=0.3276  score_drop=0.0375
+  Sources: ['ModelT-01-10-ocr.pdf', 'Ford-Model-T-Man-1919.txt', 'Ford-Model-T-Man-1919-ocr.pdf', 'ModelT-51-60.txt', 'ModelT-21-30-ocr.pdf', 'ModelT-41-50.txt', 'ModelT-51-60-ocr.pdf']
+  Answer: Safety warnings and cautions include:
+
+1. Lubricate the steering gear regularly to prevent wear and ensure proper operation.
+2. Inspect the front springs and perches periodically to check for bushings needed to reduce vibrations.
+3. Avoid cranking th...
+
+  Progress saved (12 rows)
+
+=================================================================
+[Q5] (system_overview) Explain how the electrical system and the ignition system work together in the Model T.
+=================================================================
+
+  top_k= 3  unique_sources=3  top_score=0.5142  avg_score=0.5142  score_drop=0.0000
+  Sources: ['ModelT-01-10.txt', 'Ford-Model-T-Man-1919.txt', 'Ford-Model-T-Man-1919-ocr.pdf']
+  Answer: In the Model T, both the electrical system and the ignition system work together to start the engine. When you crank the engine by hand, the ignition switch is turned on, allowing current from either the battery or the magneto to power the ignition c...
+
+  top_k= 5  unique_sources=5  top_score=0.5142  avg_score=0.5118  score_drop=0.0119
+  Sources: ['ModelT-01-10-ocr.pdf', 'Ford-Model-T-Man-1919.txt', 'ModelT-21-30.txt', 'Ford-Model-T-Man-1919-ocr.pdf', 'ModelT-01-10.txt']
+  Answer: The electrical system provides an electric current through the ignition switch, which powers the ignition coil. This coil generates high voltage electricity, which is then sent to the spark plug via the distributor cap. When the ignition switch is ac...
+
+  top_k=10  unique_sources=6  top_score=0.5142  avg_score=0.4956  score_drop=0.0635
+  Sources: ['ModelT-01-10-ocr.pdf', 'Ford-Model-T-Man-1919.txt', 'ModelT-21-30.txt', 'Ford-Model-T-Man-1919-ocr.pdf', 'ModelT-21-30-ocr.pdf', 'ModelT-01-10.txt']
+  Answer: The electrical system provides the necessary electricity to ignite the fuel-air mixture within the combustion chamber of the Model T's engine. This ignition process is crucial for achieving optimal performance and efficiency. To ensure successful ign...
+
+  Progress saved (15 rows)
+
+=================================================================
+ALL RUNS COMPLETE
+=================================================================
+
+
+# Evaluating Correctness after experimenting with top_k values:
+
+Evaluating 15 answers with gpt-4o-mini...
+  [Q1 k= 3]  completeness=3  accuracy=4  synthesis=4  hallucination=4
+  [Q1 k= 5]  completeness=1  accuracy=2  synthesis=2  hallucination=1
+  [Q1 k=10]  completeness=4  accuracy=5  synthesis=4  hallucination=5
+  [Q2 k= 3]  completeness=4  accuracy=5  synthesis=4  hallucination=5
+  [Q2 k= 5]  completeness=4  accuracy=5  synthesis=4  hallucination=5
+  [Q2 k=10]  completeness=4  accuracy=5  synthesis=4  hallucination=5
+  [Q3 k= 3]  completeness=2  accuracy=3  synthesis=2  hallucination=2
+  [Q3 k= 5]  completeness=2  accuracy=3  synthesis=2  hallucination=2
+  [Q3 k=10]  completeness=2  accuracy=3  synthesis=2  hallucination=2
+  [Q4 k= 3]  completeness=4  accuracy=5  synthesis=4  hallucination=5
+  [Q4 k= 5]  completeness=4  accuracy=5  synthesis=4  hallucination=5
+  [Q4 k=10]  completeness=3  accuracy=4  synthesis=3  hallucination=4
+  [Q5 k= 3]  completeness=5  accuracy=5  synthesis=5  hallucination=5
+  [Q5 k= 5]  completeness=3  accuracy=5  synthesis=4  hallucination=5
+  [Q5 k=10]  completeness=5  accuracy=5  synthesis=5  hallucination=5
+
+Saved: exercise11_evaluated_results.csv
+
+
+#################################################################################
+
+
+=== MEAN SCORES BY QUERY TYPE ===
+
+
+    query_id	query_type	        completeness	accuracy	synthesis_quality	hallucination
+0	Q1	        enumeration	            2.67	    3.67	            3.33	        3.33
+1	Q2	        comparison	            4.00	    5.00	            4.00	        5.00
+2	Q3	        aggregation	            2.00	    3.00	            2.00	        2.00
+3	Q4	        safety_summary	        3.67	    4.67	            3.67	        4.67
+4	Q5	        system_overview	        4.33	    5.00	            4.67	        5.00
+
+
+=== MEAN SCORES BY TOP-K ===
+	top_k	completeness	accuracy	synthesis_quality	hallucination	unique_sources_avg
+0	3	            3.6	        4.4	        3.8	                4.2	            2.8
+1	5	            2.8	        4.0	        3.2	                3.6	            4.6
+2	10	            3.6	        4.4	        3.6	                4.2	            6.2
+
+
+##########################################################################################
+
+
+
+# Side-by-side answer comparison per query:
+
+=================================================================
+[Q1] What are ALL the maintenance tasks mentioned in the manual?
+Why hard: Maintenance tasks are scattered across many sections
+=================================================================
+
+  top_k= 3  sources=3  completeness=3  accuracy=4  synthesis=4  hallucination=4
+  The maintenance tasks mentioned in the manual include checking oil and water levels, ensuring proper lubrication, and adjusting the car's settings as needed. Additionally, the text suggests that driving the car slowly and carefully after its initial use can help ensure it runs smoothly and efficiently. It also notes that skilled professionals should be consulted for major repairs or adjustments. H
+
+  top_k= 5  sources=5  completeness=1  accuracy=2  synthesis=2  hallucination=1
+  The maintenance tasks mentioned in the manual include checking oil and water levels, ensuring proper lubrication, adjusting tire pressure, inspecting brakes, changing spark plugs, cleaning the radiator, replacing fluids like coolant and transmission fluid, tightening bolts and screws, and performing periodic wheel removals and lubrications. However, specific details about each task are not provide
+
+  top_k=10  sources=5  completeness=4  accuracy=5  synthesis=4  hallucination=5
+  The maintenance tasks mentioned in the manual include filling the hub cap with grease and screwing it in place on the hub, removing and cleaning the wheels every three or four months using kerosene, adjusting the bearings after repacking them with clean grease, lubricating the springs frequently with either oil or graphite, and polishing the leaves of the springs before reassembly. Additionally, t
+
+=================================================================
+[Q2] Compare the procedure for adjusting the transmission bands vs. adjusting the carburetor.
+Why hard: Two separate procedures in different chapters must be retrieved and compared
+=================================================================
+
+  top_k= 3  sources=2  completeness=4  accuracy=5  synthesis=4  hallucination=5
+  Both the transmission bands and the carburetor require adjustments to control their functions effectively. For the transmission bands, they are adjusted using a band brake or clutch pedal, which allows precise control over the engagement and disengagement of gears. In contrast, the carburetor's adjustment involves changing the position of the needle valve within the carburetor housing, allowing fo
+
+  top_k= 5  sources=3  completeness=4  accuracy=5  synthesis=4  hallucination=5
+  Both the transmission bands and the carburetor require adjustments to ensure optimal performance. For the transmission bands, the procedure involves observing the angle of the adjusting rod when the engine runs smoothly. This observation helps determine if further adjustments are needed. On the other hand, for the carburetor, the process includes turning the dash adjustment one-quarter turn to the
+
+  top_k=10  sources=5  completeness=4  accuracy=5  synthesis=4  hallucination=5
+  Both procedures involve adjusting components related to the vehicle's operation. For the transmission bands, they can be tightened using a locking nut and an adjusting screw, while for the carburetor, adjustments are made through the dash adjustment mechanism. However, there are differences in their purposes and methods. Transmission bands adjust the speed of the engine, whereas carburetor adjustm
+
+=================================================================
+[Q3] What tools and supplies does the manual say I need to maintain a Model T?
+Why hard: Tools mentioned separately: oil, water, spark plug tools, etc.
+=================================================================
+
+  top_k= 3  sources=3  completeness=2  accuracy=3  synthesis=2  hallucination=2
+  To maintain a Model T truck as described in this manual, you would need the following tools and supplies:
+
+- Terminal (cut no. 2)
+- Crank salt rear bearing
+- Crank spring
+- Crank steve
+- Camshaft rear bearing
+- Camshaft front bearing
+- Crank case O-ring
+- Prot pad
+- Starter crank spring
+- Starting crank steve
+- Sear gear
+- Worm gear
+- Worm shaft
+- Worm wheel
+- Worm worm
+- Worm worm
+- Worm worm
+- W
+
+  top_k= 5  sources=5  completeness=2  accuracy=3  synthesis=2  hallucination=2
+  To maintain a Model T truck, you will need the following tools and supplies:
+
+1. A wrench or socket set
+2. A Phillips screwdriver
+3. A flathead screwdriver
+4. A torque wrench
+5. Socket sets with appropriate sizes
+6. Replacement parts such as crankshaft bearings, starter motor components, generator gears, etc.
+7. Lubricating oil suitable for automotive use
+8. A jack and jack stands
+9. A floor jack
+
+
+  top_k=10  sources=8  completeness=2  accuracy=3  synthesis=2  hallucination=2
+  According to the provided text, you will need the following tools and supplies to maintain your Model T truck:
+
+1. Clean grease for lubricating the crankshaft spring and connecting rod bearing.
+2. A wrench for tightening bolts.
+3. A socket set for removing and installing parts.
+4. A torque wrench for precise adjustments.
+5. A Phillips screwdriver for accessing certain components.
+6. A flathead scr
+
+=================================================================
+[Q4] Summarize all safety warnings and cautions mentioned in the manual.
+Why hard: Safety warnings are distributed throughout the whole document
+=================================================================
+
+  top_k= 3  sources=3  completeness=4  accuracy=5  synthesis=4  hallucination=5
+  Safety warnings and cautions mentioned in the manual include:
+
+1. Lubrication issues: Inspect the front spring and front spring perches periodically to check if new bushings are needed to address excessive vibrations.
+2. Steering gear maintenance: Check for necessary renewals of little pinions and brass internal gears located just beneath the steering wheel spider.
+3. Electrical system problems: B
+
+  top_k= 5  sources=5  completeness=4  accuracy=5  synthesis=4  hallucination=5
+  Safety warnings and cautions mentioned in the manual include:
+
+1. Lubrication issues: Inspect the front spring and front spring perches periodically to check if new bushings are needed to address excessive vibrations.
+2. Electrical system problems: Check for leaks by ensuring no contact between the engine pan or other metal parts; listen for buzzing sounds from coil units indicating a "short" in t
+
+  top_k=10  sources=7  completeness=3  accuracy=4  synthesis=3  hallucination=4
+  Safety warnings and cautions include:
+
+1. Lubricate the steering gear regularly to prevent wear and ensure proper operation.
+2. Inspect the front springs and perches periodically to check for bushings needed to reduce vibrations.
+3. Avoid cranking the engine against compression if it's experiencing a "short" due to a wiring issue.
+4. Check for carbon deposits on piston heads, loose connecting rod 
+
+=================================================================
+[Q5] Explain how the electrical system and the ignition system work together in the Model T.
+Why hard: Requires combining electrical and ignition sections into a coherent explanation
+=================================================================
+
+  top_k= 3  sources=3  completeness=5  accuracy=5  synthesis=5  hallucination=5
+  In the Model T, both the electrical system and the ignition system work together to start the engine. When you crank the engine by hand, the ignition switch is turned on, allowing current from either the battery or the magneto to power the ignition coil. This coil generates high voltage, which is then sent through the distributor cap to the spark plug, igniting the fuel-air mixture inside the cyli
+
+  top_k= 5  sources=5  completeness=3  accuracy=5  synthesis=4  hallucination=5
+  The electrical system provides an electric current through the ignition switch, which powers the ignition coil. This coil generates high voltage electricity, which is then sent to the spark plug via the distributor cap. When the ignition switch is activated, the high voltage sparks ignite the fuel-air mixture inside the combustion chamber, causing the engine to run smoothly. The ignition system wo
+
+  top_k=10  sources=6  completeness=5  accuracy=5  synthesis=5  hallucination=5
+  The electrical system provides the necessary electricity to ignite the fuel-air mixture within the combustion chamber of the Model T's engine. This ignition process is crucial for achieving optimal performance and efficiency. To ensure successful ignition, both the battery and magneto systems must be utilized appropriately. When cranking manually, the ignition switch should be activated first befo

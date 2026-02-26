@@ -1,0 +1,256 @@
+query_id,query_type,question,top_k,unique_sources,source_files,top_score,avg_score,score_drop,answer,completeness,accuracy,synthesis_quality,hallucination
+Q1,enumeration,What are ALL the maintenance tasks mentioned in the manual?,3,3,ModelT-01-10.txt | Ford-Model-T-Man-1919-ocr.pdf | ModelT-01-10-ocr.pdf,0.4139,0.4127,0.0036,"The maintenance tasks mentioned in the manual include checking oil and water levels, ensuring proper lubrication, and adjusting the car's settings as needed. Additionally, the text suggests that driving the car slowly and carefully after its initial use can help ensure it runs smoothly and efficiently. It also notes that skilled professionals should be consulted for major repairs or adjustments. However, there is no mention of specific machines requiring additional care compared to others. The passage does not provide details on how often these tasks should be performed or any other maintenance requirements beyond those listed.",3,4,4,5
+Q1,enumeration,What are ALL the maintenance tasks mentioned in the manual?,5,5,Ford-Model-T-Man-1919-ocr.pdf | ModelT-01-10.txt | ModelT-41-50.txt | Ford-Model-T-Man-1919.txt | ModelT-01-10-ocr.pdf,0.4139,0.4097,0.0134,"The maintenance tasks mentioned in the manual include checking oil and water levels, ensuring proper lubrication, adjusting tire pressure, inspecting brakes, changing spark plugs, cleaning the radiator, replacing fluids like coolant and transmission fluid, tightening bolts and screws, and performing periodic wheel removals and lubrications. However, specific details about each task are not provided in this excerpt. [END_OF_TEXT] 
+
+The passage does not provide any additional information beyond what was already stated in the previous chunks. There are no contradictions between the passages. The context is sufficient as all necessary information is present. Therefore, there is no missing information. 
+
+To summarize, the maintenance tasks mentioned in the manual are:
+
+1. Checking oil and water levels
+2. Ensuring proper lubrication
+3. Adjusting tire pressure
+4. Inspecting brakes
+5. Changing spark plugs
+6. Cleaning the radiator
+7. Replacing fluids like coolant and transmission fluid
+8. Tightening bolts and screws
+9. Performing periodic wheel removals and lubrications
+
+These tasks cover various aspects of maintaining a Ford vehicle's performance and longevity. [END_OF_TEXT]
+
+The synthesis of information from all relevant passages reveals that the maintenance tasks mentioned in the manual include checking oil and water levels, ensuring proper lubrication, adjusting tire pressure, inspecting brakes, changing spark plugs, cleaning the radiator, replacing fluids such as coolant and transmission fluid, tightening bolts and screws, and performing periodic wheel removals and lubrications. These tasks encompass various components of a Ford vehicle's upkeep and ensure its optimal functioning over time. [END_OF_TEXT] 
+
+The final answer is: Maintenance tasks mentioned in the manual include checking oil and water levels, ensuring proper lubrication, adjusting tire pressure, inspecting brakes, changing spark plugs, cleaning the radiator, replacing fluids such as coolant and transmission fluid, tightening bolts and screws, and performing periodic wheel removals and lubrications. These tasks cover various components of a Ford vehicle's upkeep and ensure its optimal functioning",2,5,3,4
+Q1,enumeration,What are ALL the maintenance tasks mentioned in the manual?,10,5,Ford-Model-T-Man-1919-ocr.pdf | ModelT-01-10.txt | ModelT-41-50.txt | Ford-Model-T-Man-1919.txt | ModelT-01-10-ocr.pdf,0.4139,0.3961,0.0435,"The maintenance tasks mentioned in the manual include filling the hub cap with grease and screwing it in place on the hub, removing and cleaning the wheels every three or four months using kerosene, adjusting the bearings after repacking them with clean grease, lubricating the springs frequently with either oil or graphite, and polishing the leaves of the springs before reassembly. Additionally, there's advice about starting the car only after making adjustments yourself and avoiding unnecessary repairs. However, some specific details like how often to change the oil and water levels aren't provided in the text.",,,,
+Q2,comparison,Compare the procedure for adjusting the transmission bands vs. adjusting the carburetor.,3,2,Ford-Model-T-Man-1919-ocr.pdf | ModelT-21-30-ocr.pdf,0.5644,0.5634,0.003,"Both the transmission bands and the carburetor require adjustments to control their functions effectively. For the transmission bands, they are adjusted using a band brake or clutch pedal, which allows precise control over the engagement and disengagement of gears. In contrast, the carburetor's adjustment involves changing the position of the needle valve within the carburetor housing, allowing for fine-tuning of fuel flow based on varying driving conditions such as temperature and engine load. This adjustment typically requires turning the carburetor adjustment screw located on the dashboard, which can be done with either hand depending on personal preference. However, both procedures aim to optimize performance and efficiency by ensuring that the vehicle operates smoothly under various driving scenarios. It's important to note that while the carburetor adjustment affects overall fuel delivery, the transmission bands adjust specific gear ratios directly related to power transfer between the engine and drivetrain. Therefore, understanding these differences helps drivers make informed decisions about how best to maintain optimal performance across different driving conditions. [Missing Information] To summarize, both the transmission bands and the carburetor serve crucial roles in controlling the operation of an automobile, but each has its unique method of adjustment and impact on the vehicle's performance. Understanding these mechanisms aids in maintaining proper function and enhancing overall driving experience. [Missing Information]
+
+The passage mentions two types of adjustments - one for the transmission bands and another for the carburetor. These adjustments are described as follows:
+
+1. **Transmission Bands Adjustment**: 
+   - Method: Using a band brake or clutch pedal.
+   - Purpose: Precise control over gear engagement and disengagement.
+   - Location: On the dashboard.
+
+2. **Carburetor Adjustment**:
+   - Method: Turning the carburetor adjustment screw on the dashboard.
+   - Purpose: Fine-tuning fuel flow based on varying driving conditions like temperature and engine load.
+   - Mechanism: Changing the position of the needle valve within the carburetor housing.
+
+Both adjustments are essential for",4,5,4,5
+Q2,comparison,Compare the procedure for adjusting the transmission bands vs. adjusting the carburetor.,5,3,ModelT-21-30.txt | Ford-Model-T-Man-1919-ocr.pdf | ModelT-21-30-ocr.pdf,0.5644,0.5607,0.0125,"Both the transmission bands and the carburetor require adjustments to ensure optimal performance. For the transmission bands, the procedure involves observing the angle of the adjusting rod when the engine runs smoothly. This observation helps determine if further adjustments are needed. On the other hand, for the carburetor, the process includes turning the dash adjustment one-quarter turn to the left, especially during cold starts, to optimize fuel mixture based on temperature conditions. Additionally, both adjustments must be made with consideration for the driver's comfort and efficiency, ensuring that they can operate the vehicle effectively under various driving conditions. However, there seems to be some inconsistency in the provided text regarding the specific reason for placing the carburetor adjustment on the dash; while one source mentions it for convenience, another indicates it for the driver's ease in making adjustments. It would be beneficial to clarify this discrepancy for a more comprehensive understanding.",4,5,4,5
+Q2,comparison,Compare the procedure for adjusting the transmission bands vs. adjusting the carburetor.,10,5,ModelT-31-40-ocr.pdf | ModelT-21-30.txt | Ford-Model-T-Man-1919-ocr.pdf | Ford-Model-T-Man-1919.txt | ModelT-21-30-ocr.pdf,0.5644,0.5525,0.0249,"Both procedures involve adjusting components related to the vehicle's operation. For the transmission bands, they can be tightened using a locking nut and an adjusting screw, while for the carburetor, adjustments are made through the dash adjustment mechanism. However, there are differences in their purposes and methods. Transmission bands adjust the speed of the engine, whereas carburetor adjustments control the amount of fuel in the mixture based on the driver's preference for speed and temperature conditions. Additionally, the carburetor adjustment involves turning the carburetor adjustment knob, while tightening the transmission bands requires loosening the locking nut and turning the adjusting screw. Lastly, after thorough use, both require observing the optimal operating angle of the carburetor adjusting rod for best performance.",4,5,4,5
+Q3,aggregation,What tools and supplies does the manual say I need to maintain a Model T?,3,3,ModelT-61-62.txt | ModelT-01-10.txt | ModelT-61-62-ocr.pdf,0.357,0.3534,0.0066,"To maintain a Model T truck as described in this manual, you would need the following tools and supplies:
+
+- Terminal (cut no. 2)
+- Crank salt rear bearing
+- Crank spring
+- Crank steve
+- Camshaft rear bearing
+- Camshaft front bearing
+- Crank case O-ring
+- Prot pad
+- Starter crank spring
+- Starting crank steve
+- Sear gear
+- Worm gear
+- Worm shaft
+- Worm wheel
+- Worm worm
+- Worm worm
+- Worm worm
+- Worm worm
+- Worm worm
+- Worm worm
+- Worm worm
+- Worm worm
+- Worm worm
+- Worm worm
+- Worm worm
+- Worm worm
+- Worm worm
+- Worm worm
+- Worm worm
+- Worm worm
+- Worm worm
+- Worm worm
+- Worm worm
+- Worm worm
+- Worm worm
+- Worm worm
+- Worm worm
+- Worm worm
+- Worm worm
+- Worm worm
+- Worm worm
+- Worm worm
+- Worm worm
+- Worm worm
+- Worm worm
+- Worm worm
+- Worm worm
+- Worm worm
+- Worm worm
+- Worm worm
+- Worm worm
+- Worm worm
+- Worm worm
+- Worm worm
+- Worm worm
+- Worm worm
+- Worm worm
+- Worm worm
+- Worm worm
+- Worm worm
+- Worm worm
+- Worm worm
+- Worm worm
+- Worm worm
+- Worm worm
+- Worm worm
+- Worm worm
+- Worm worm
+- Worm worm
+- Worm worm
+- Worm worm
+- Worm worm
+- Worm worm
+- Worm worm
+- Worm worm
+- Worm worm
+- Worm worm
+- Worm worm
+- Worm worm
+- Worm worm
+- Worm worm
+- Worm worm
+- Worm worm
+- Worm worm
+- Worm worm
+- Worm worm
+- Worm worm
+- Worm worm
+- Worm worm
+-",2,3,2,2
+Q3,aggregation,What tools and supplies does the manual say I need to maintain a Model T?,5,5,ModelT-61-62-ocr.pdf | ModelT-01-10.txt | ModelT-61-62.txt | Ford-Model-T-Man-1919.txt | ModelT-51-60.txt,0.357,0.3449,0.0249,"To maintain a Model T truck, you will need the following tools and supplies:
+
+1. A wrench or socket set
+2. A Phillips screwdriver
+3. A flathead screwdriver
+4. A torque wrench
+5. Socket sets with appropriate sizes
+6. Replacement parts such as crankshaft bearings, starter motor components, generator gears, etc.
+7. Lubricating oil suitable for automotive use
+8. A jack and jack stands
+9. A floor jack
+10. A tire pressure gauge
+11. A spare tire
+12. A lug wrench
+13. A flashlight
+14. A pair of gloves
+15. A set of wire cutters
+16. A file or sandpaper
+17. A brush or vacuum cleaner
+18. A cloth or rag
+19. A measuring tape
+20. A level
+21. A set of washers and nuts
+22. A set of bolts and fasteners
+23. A set of spark plugs
+24. A fuel filter
+25. Fuel pump
+26. An air filter
+27. A fan belt
+28. A battery charger
+29. A multimeter
+30. A set of jumper cables
+31. A set of fuses
+32. A set of wiring harnesses
+33. A set of brake shoes
+34. A set of brake drums
+35. A set of brake linings
+36. A set of steering gear
+37. A set of suspension springs
+38. A set of shock absorbers
+39. A set of tires and tubes
+40. A set of wheel chocks
+41. A set of lug nuts
+42. A set of lug keys
+43. A set of lug wrenches
+44. A set of lug rings
+45. A set",2,3,2,2
+Q3,aggregation,What tools and supplies does the manual say I need to maintain a Model T?,10,8,Ford-Model-T-Man-1919-ocr.pdf | ModelT-61-62-ocr.pdf | ModelT-01-10.txt | ModelT-41-50.txt | ModelT-61-62.txt | Ford-Model-T-Man-1919.txt | ModelT-51-60.txt | ModelT-01-10-ocr.pdf,0.357,0.3368,0.0355,"According to the provided text, you will need the following tools and supplies to maintain your Model T truck:
+
+1. Clean grease for lubricating the crankshaft spring and connecting rod bearing.
+2. A wrench for tightening bolts.
+3. A socket set for removing and installing parts.
+4. A torque wrench for precise adjustments.
+5. A Phillips screwdriver for accessing certain components.
+6. A flathead screwdriver for other tasks.
+7. A file for sharpening edges.
+8. A hammer for striking parts.
+9. A level for ensuring alignment.
+10. A feeler gauge for measuring clearance.
+11. A caliper for precise measurements.
+12. A ruler for straightening parts.
+13. A pair of pliers for gripping small parts.
+14. A wire brush for cleaning surfaces.
+15. A vacuum cleaner for dust removal.
+16. A compressor for inflating tires.
+17. A jack for lifting vehicles.
+18. A tire iron for changing tires.
+19. A lug wrench for securing wheels.
+20. A spare tire for emergencies.
+21. A flashlight for night driving.
+22. A battery charger for maintaining batteries.
+23. A multimeter for electrical testing.
+24. A set of spark plugs for starting engines.
+25. A starter kit including a starter motor and generator unit.
+26. A set of wires and connectors for wiring the system.
+27. A set of terminal blocks for electrical connections.
+28. A set of mounting hardware for attaching parts.
+29. A set of washers and nuts for fastening components.
+30. A set of hex keys for various sizes.
+31. A set of Allen keys for adjusting screws.
+32. A set of Phillips head screws for specific applications.
+33. A set of flathead screws for other uses.
+34. A set of sockets for different sized bolts.
+35. A set of",2,3,2,3
+Q4,safety_summary,Summarize all safety warnings and cautions mentioned in the manual.,3,3,Ford-Model-T-Man-1919.txt | Ford-Model-T-Man-1919-ocr.pdf | ModelT-41-50.txt,0.351,0.3456,0.0161,"Safety warnings and cautions mentioned in the manual include:
+
+1. Lubrication issues: Inspect the front spring and front spring perches periodically to check if new bushings are needed to address excessive vibrations.
+2. Steering gear maintenance: Check for necessary renewals of little pinions and brass internal gears located just beneath the steering wheel spider.
+3. Electrical system problems: Be aware that exposure of the current can lead to leakage, which might cause a ""short"" in the wiring. This could result in an immediate engine shutdown due to premature ignition.
+4. Engine operation precautions: Avoid cranking the engine downward against compression while the vehicle is in this condition; doing so increases the risk of a violent kickback caused by the ""short."" 
+
+These warnings highlight the importance of regular inspection and proper maintenance to ensure safe operation of the vehicle. [Missing Information]",4,5,4,5
+Q4,safety_summary,Summarize all safety warnings and cautions mentioned in the manual.,5,5,Ford-Model-T-Man-1919-ocr.pdf | ModelT-41-50.txt | Ford-Model-T-Man-1919.txt | ModelT-21-30-ocr.pdf | ModelT-51-60.txt,0.351,0.3396,0.0247,"Safety warnings and cautions mentioned in the manual include:
+
+1. Lubrication issues: Inspect the front spring and front spring perches periodically to check if new bushings are needed to address excessive vibrations.
+2. Electrical system problems: Check for leaks by ensuring no contact between the engine pan or other metal parts; listen for buzzing sounds from coil units indicating a ""short"" in the wiring that could cause an engine failure due to premature explosions.
+3. Engine performance concerns: Avoid cranking the engine downward against compression when the car is in this condition because it can lead to a ""vigorously kick back.""
+4. Fuel-related issues: Ensure gas mixture is not too rich.
+5. Cooling system problems: Address sediment buildup in the radiator to ensure proper water circulation.
+6. Spark plug cleanliness: Clean dirty spark plugs to prevent potential ignition issues.
+7. Piston head carbon deposits: Remove carbon deposits from piston heads to avoid knocking noises.
+8. Connecting rod and crankshaft bearings: Replace loose connecting rod or crankshaft bearings to maintain engine stability.
+9. Spark advance adjustment: Adjust spark advance properly to prevent detonations caused by advanced spark timing.
+10. Engine knock detection: Listen for unusual noises such as ""vigorously kick back"" during operation to identify potential mechanical issues.",3,4,3,4
+Q4,safety_summary,Summarize all safety warnings and cautions mentioned in the manual.,10,7,Ford-Model-T-Man-1919-ocr.pdf | ModelT-51-60-ocr.pdf | ModelT-41-50.txt | Ford-Model-T-Man-1919.txt | ModelT-21-30-ocr.pdf | ModelT-51-60.txt | ModelT-01-10-ocr.pdf,0.351,0.3276,0.0375,"Safety warnings and cautions include:
+
+1. Lubricate the steering gear regularly to prevent wear and ensure proper operation.
+2. Inspect the front springs and perches periodically to check for bushings needed to reduce vibrations.
+3. Avoid cranking the engine against compression if it's experiencing a ""short"" due to a wiring issue.
+4. Check for carbon deposits on piston heads, loose connecting rod bearings, or loose crankshaft bearings.
+5. Adjust the carburetor after warming up the engine to avoid flooding.
+6. Ensure adequate water and oil supply to prevent overheating.
+7. Clean the magneto contacts to maintain electrical integrity.
+8. Use a rich fuel mix only temporarily during overnight stays or prolonged cooling periods.
+9. Regularly clean the carburetor and feed pipes to remove dirt.
+10. Apply a rich fuel mix cautiously to avoid damaging the engine.
+11. Maintain good ventilation around the battery terminals to prevent corrosion.
+12. Keep the fan belt properly tensioned and secure to prevent failure.
+13. Replace spark plugs promptly to ensure optimal ignition performance.
+14. Monitor the commutator for signs of wear and apply oil daily to prolong its lifespan.",3,4,3,4
+Q5,system_overview,Explain how the electrical system and the ignition system work together in the Model T.,3,3,Ford-Model-T-Man-1919.txt | Ford-Model-T-Man-1919-ocr.pdf | ModelT-01-10.txt,0.5142,0.5142,0.0,"In the Model T, both the electrical system and the ignition system work together to start the engine. When you crank the engine by hand, the ignition switch is turned on, allowing current from either the battery or the magneto to power the ignition coil. This coil generates high voltage, which is then sent through the distributor cap to the spark plug, igniting the fuel-air mixture inside the cylinder. Special attention should be paid to the position of the spark lever; an advanced spark can lead to backfiring, causing damage to the starter's shaft if left unchecked. Overall, the combination of these systems ensures efficient starting of the Model T engine.",5,5,5,5
+Q5,system_overview,Explain how the electrical system and the ignition system work together in the Model T.,5,5,ModelT-21-30.txt | Ford-Model-T-Man-1919-ocr.pdf | ModelT-01-10.txt | Ford-Model-T-Man-1919.txt | ModelT-01-10-ocr.pdf,0.5142,0.5118,0.0119,"The electrical system provides an electric current through the ignition switch, which powers the ignition coil. This coil generates high voltage electricity, which is then sent to the spark plug via the distributor cap. When the ignition switch is activated, the high voltage sparks ignite the fuel-air mixture inside the combustion chamber, causing the engine to run smoothly. The ignition system works in conjunction with the electrical system to ensure efficient operation of the engine. [Note: Missing information about specific components like the magneto and spark lever.]",3,5,4,5
+Q5,system_overview,Explain how the electrical system and the ignition system work together in the Model T.,10,6,ModelT-21-30.txt | Ford-Model-T-Man-1919-ocr.pdf | ModelT-01-10.txt | Ford-Model-T-Man-1919.txt | ModelT-21-30-ocr.pdf | ModelT-01-10-ocr.pdf,0.5142,0.4956,0.0635,"The electrical system provides the necessary electricity to ignite the fuel-air mixture within the combustion chamber of the Model T's engine. This ignition process is crucial for achieving optimal performance and efficiency. To ensure successful ignition, both the battery and magneto systems must be utilized appropriately. When cranking manually, the ignition switch should be activated first before any other components. For better results, it is recommended to use the magneto rather than relying solely on the battery. Additionally, special attention needs to be paid to the correct positioning of the spark lever to avoid backfires, which could lead to damage such as bending or breaking the starter shaft. Overall, the combination of these systems ensures reliable operation of the engine during start-up processes.",5,5,5,5
