@@ -3,6 +3,18 @@
 
 Testing whether a RAG pipeline can **combine information scattered across multiple chunks** into a single coherent answer, the hardest retrieval task. A question answerable from one passage is easy; a question that requires finding, merging, and reasoning over many passages is where most RAG systems break down.
 
+## File Structure
+
+exercise11/
+├── README.md          #results and question answer
+├── Topic5_exercise11.ipynb
+├── exercise11_heatmap.png
+├── exercise11_scores_vs_k.png
+├── exercise11_source_diversity.png
+├── exercise11_raw_answers.csv
+└── exercise11_evaluated_results.csv
+
+
 ## Set up
 
 | Component | Details |
