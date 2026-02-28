@@ -1,0 +1,233 @@
+
+================================================================================
+LangGraph Manual Tool Calling - Persistent Multi-Turn Conversation
+================================================================================
+
+This system uses manual tool calling with ToolNode:
+  - call_model: Invokes LLM with tool bindings
+  - ToolNode: Executes requested tools in parallel
+  - Loop: tools -> call_model (until no more tools needed)
+  - Single persistent conversation across all turns
+  - History managed automatically (trimmed after 100 messages)
+
+Commands:
+  - Type 'quit' or 'exit' to end the conversation
+  - Type 'verbose' to enable detailed tracing
+  - Type 'quiet' to disable detailed tracing
+
+Available tools:
+  - get_weather(location): Get weather information
+  - get_population(city): Get population data
+  - calculate(expression): Evaluate math expressions
+================================================================================
+[SYSTEM] Conversation graph created successfully (using manual ToolNode)
+[SYSTEM] Graph visualization saved to 'langchain_manual_tool_graph.png'
+
+[SYSTEM] Starting conversation...
+
+
+================================================================================
+NODE: input_node
+================================================================================
+
+You: 
+[DEBUG] User input: 
+[DEBUG] Routing to call_model
+
+================================================================================
+NODE: call_model
+================================================================================
+[DEBUG] Calling model with 1 messages
+[DEBUG] Added system prompt
+/usr/local/lib/python3.12/dist-packages/pydantic/main.py:854: RuntimeWarning: coroutine 'main' was never awaited
+  @classmethod
+RuntimeWarning: Enable tracemalloc to get the object allocation traceback
+[DEBUG] Model response (no tools): Hello! How can I assist you today?...
+[DEBUG] Routing to output
+
+================================================================================
+NODE: output_node
+================================================================================
+
+Assistant: Hello! How can I assist you today?
+
+================================================================================
+NODE: input_node
+================================================================================
+
+You: Whats the weather in New York
+[DEBUG] User input: Whats the weather in New York
+[DEBUG] Routing to call_model
+
+================================================================================
+NODE: call_model
+================================================================================
+[DEBUG] Calling model with 4 messages
+[DEBUG] Added system prompt
+[DEBUG] Model requested 1 tool call(s):
+  - get_weather({'location': 'New York'})
+[DEBUG] Routing to tools
+
+================================================================================
+NODE: call_model
+================================================================================
+[DEBUG] Calling model with 7 messages
+[DEBUG] Added system prompt
+[DEBUG] Model response (no tools): The weather in New York is currently sunny with a temperature of 72°F and light winds....
+[DEBUG] Routing to output
+
+================================================================================
+NODE: output_node
+================================================================================
+
+Assistant: The weather in New York is currently sunny with a temperature of 72°F and light winds.
+
+================================================================================
+NODE: input_node
+================================================================================
+
+You: What is 98 + 20?
+[DEBUG] User input: What is 98 + 20?
+[DEBUG] Routing to call_model
+
+================================================================================
+NODE: call_model
+================================================================================
+[DEBUG] Calling model with 10 messages
+[DEBUG] Added system prompt
+[DEBUG] Model requested 1 tool call(s):
+  - calculate({'expression': '98 + 20'})
+[DEBUG] Routing to tools
+
+================================================================================
+NODE: call_model
+================================================================================
+[DEBUG] Calling model with 13 messages
+[DEBUG] Added system prompt
+[DEBUG] Model response (no tools): The result of 98 + 20 is 118....
+[DEBUG] Routing to output
+
+================================================================================
+NODE: output_node
+================================================================================
+
+Assistant: The result of 98 + 20 is 118.
+
+================================================================================
+NODE: input_node
+================================================================================
+
+You: exit
+[DEBUG] Exit command received
+[DEBUG] Routing to END (exit requested)
+
+[SYSTEM] Conversation ended. Goodbye!
+
+__________________________
+
+
+
+
+
+================================================================================
+LangGraph ReAct Agent - Persistent Multi-Turn Conversation
+================================================================================
+
+This system uses create_react_agent with graph-based looping:
+  - Single persistent conversation across all turns
+  - History managed automatically (trimmed after 100 messages)
+  - Loops via graph edges (no Python loops or checkpointing)
+
+Commands:
+  - Type 'quit' or 'exit' to end the conversation
+  - Type 'verbose' to enable detailed tracing
+  - Type 'quiet' to disable detailed tracing
+
+Available tools:
+  - get_weather(location): Get weather information
+  - get_population(city): Get population data
+  - calculate(expression): Evaluate math expressions
+================================================================================
+[SYSTEM] ReAct agent created successfully
+[SYSTEM] ReAct agent graph saved to 'langchain_react_agent.png'
+/tmp/ipython-input-650/3086395187.py:375: LangGraphDeprecatedSinceV10: create_react_agent has been moved to `langchain.agents`. Please update your import to `from langchain.agents import create_agent`. Deprecated in LangGraph V1.0 to be removed in V2.0.
+  react_agent = create_react_agent(
+[SYSTEM] Conversation graph saved to 'langchain_conversation_graph.png'
+
+[SYSTEM] Starting conversation...
+
+
+================================================================================
+NODE: input_node
+================================================================================
+
+You: 
+[DEBUG] User input: 
+[DEBUG] Routing to call_react_agent
+
+================================================================================
+NODE: call_react_agent
+================================================================================
+[DEBUG] Invoking ReAct agent with 1 messages in history
+[DEBUG] Agent generated 1 new messages
+[DEBUG] Response preview: Hello! How can I assist you today?...
+
+================================================================================
+NODE: output_node
+================================================================================
+
+Assistant: Hello! How can I assist you today?
+
+================================================================================
+NODE: input_node
+================================================================================
+
+You: What is the weather in New York?
+[DEBUG] User input: What is the weather in New York?
+[DEBUG] Routing to call_react_agent
+
+================================================================================
+NODE: call_react_agent
+================================================================================
+[DEBUG] Invoking ReAct agent with 3 messages in history
+[DEBUG] Agent generated 3 new messages
+[DEBUG] Tool calls: ['get_weather']
+[DEBUG] Response preview: The current weather in New York is sunny, with a temperature of 72°F and light winds....
+
+================================================================================
+NODE: output_node
+================================================================================
+
+Assistant: The current weather in New York is sunny, with a temperature of 72°F and light winds.
+
+================================================================================
+NODE: input_node
+================================================================================
+
+You: how would you define self-respect?
+[DEBUG] User input: how would you define self-respect?
+[DEBUG] Routing to call_react_agent
+
+================================================================================
+NODE: call_react_agent
+================================================================================
+[DEBUG] Invoking ReAct agent with 7 messages in history
+[DEBUG] Agent generated 1 new messages
+[DEBUG] Response preview: Self-respect is the regard and appreciation one has for oneself. It involves recognizing and valuing...
+
+================================================================================
+NODE: output_node
+================================================================================
+
+Assistant: Self-respect is the regard and appreciation one has for oneself. It involves recognizing and valuing one's own worth and abilities, and maintaining a sense of dignity and integrity. Self-respect is characterized by self-confidence, self-assurance, and the ability to assert oneself in a healthy manner. It means treating oneself with kindness and not allowing others to treat one poorly. Self-respect is fundamental to maintaining healthy relationships and making choices that align with one's values and beliefs.
+
+================================================================================
+NODE: input_node
+================================================================================
+
+You: exit
+[DEBUG] Exit command received
+[DEBUG] Routing to END (exit requested)
+
+[SYSTEM] Conversation ended. Goodbye!
+
