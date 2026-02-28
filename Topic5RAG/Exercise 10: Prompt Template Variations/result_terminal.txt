@@ -1,0 +1,332 @@
+ 5 prompt variants × 5 queries = 25 runs
+   [P1] Minimal
+   [P2] Strict Grounding
+   [P3] Citation
+   [P4] Permissive
+   [P5] Structured Output
+
+----------------------------------------------------------------------------------
+[Q1] retrieved 5 chunks, top_score=0.5533
+[Q2] retrieved 5 chunks, top_score=0.6008
+[Q3] retrieved 5 chunks, top_score=0.6404
+[Q4] retrieved 5 chunks, top_score=0.3973
+[Q5] retrieved 5 chunks, top_score=0.4092
+
+✔ Context pre-retrieved for all queries
+
+
+----------------------------------------------------------------------------------
+
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+
+============================================================
+[P1] Minimal
+============================================================
+  [Q1] What is the correct spark plug gap for a Model T Ford?
+  → The correct spark plug gap for a Model T Ford is 7/8 inch (about the thickness of a smooth dime). 
+
+This can be seen clearly in the text provided:
+
+> Dirty plugs usually result fro...
+
+  [Q2] How do I fix a slipping transmission band?
+  → Loosen the lock nut at the tight side of the transmission cover, and turn the adjusting screw (see Cut No. 12) to the right. To tighten the brake and reverse bands, remove the tran...
+
+  [Q3] How do I adjust the carburetor on a Model T?
+  → To adjust the carburetor on a Model T, you need to turn the dash adjustment one-quarter turn to the left, particularly when starting a cold engine or in warm weather where gasoline...
+
+  [Q4] What oil should I use in a Model T engine?
+  → The oil used in a Model T engine should be kept at a level midway between the two cock. Under no circumstances should it be allowed to get coclc. All other parts of the car are pro...
+
+  [Q5] What is the fuel efficiency of the Model T in miles per gallon?
+  → The Model T was known for its high fuel efficiency, achieving up to 16 miles per gallon on the highway.
+To determine the fuel efficiency of the Model T in miles per gallon (mpg), w...
+
+  ✔ Progress saved (5 rows)
+
+============================================================
+[P2] Strict Grounding
+============================================================
+  [Q1] What is the correct spark plug gap for a Model T Ford?
+  → The correct spark plug gap for a Model T Ford is 7/16 inch (about the thickness of a smooth dime). According to the sources provided, this is the recommended distance between the s...
+
+  [Q2] How do I fix a slipping transmission band?
+  → Loosen the lock nut at the tight side of the transmission cover, and turn the adjusting screw (see Cut No. 12). Right. To tighten the brake and reverse bands, remove the transmissi...
+
+  [Q3] How do I adjust the carburetor on a Model T?
+  → To adjust the carburetor on a Model T, you should follow these steps:
+
+1. Locate the carburetor adjustment dial or knob on the dashboard.
+2. Turn the dial or knob counterclockwise ...
+
+  [Q4] What oil should I use in a Model T engine?
+  → The oil should be used at a level midway between the two pet cocks but under no circumstances should it be allowed to get clogged. It's important to ensure that all other parts of ...
+
+  [Q5] What is the fuel efficiency of the Model T in miles per gallon?
+  → The Model T achieved an average fuel efficiency of about 16 miles per gallon during its production years. This was due to several factors including the use of a carburetor that all...
+
+  ✔ Progress saved (10 rows)
+
+============================================================
+[P3] Citation
+============================================================
+  [Q1] What is the correct spark plug gap for a Model T Ford?
+  → According to the passage, "The distance between' the sparking points should be 74", about the thickness of a smooth dime. This means that the correct spark plug gap for a Model T F...
+
+  [Q2] How do I fix a slipping transmission band?
+  → The slow.speed band.may be tightened by loosening the lock nut at the tight side of the transmission cover, and turning the adjusting screw (see Cut No. 12). Right. To tighten the ...
+
+  [Q3] How do I adjust the carburetor on a Model T?
+  → To adjust the carburetor on a Model T, you should refer to Answer No. 43 which states "For the convenience of the driver in adjusting the carburetor." This means that the carbureto...
+
+  [Q4] What oil should I use in a Model T engine?
+  → The passage states "All other parts of the car are properly oiled when it leaves the factory." This implies that the oil used in the Model T engine is provided by the factory. Howe...
+
+  [Q5] What is the fuel efficiency of the Model T in miles per gallon?
+  → The greatest economy in gasoline consumption is obtained by driving orien the the spark advanced sufficiently to obtain the maximum speed. a. 'How is speed of : ' Gar controlled? |...
+
+  ✔ Progress saved (15 rows)
+
+============================================================
+[P4] Permissive
+============================================================
+  [Q1] What is the correct spark plug gap for a Model T Ford?
+  → The correct spark plug gap for a Model T Ford is 7/16" (about the thickness of a smooth dime). This information can be found in the sources provided, specifically in the text "THE ...
+
+  [Q2] How do I fix a slipping transmission band?
+  → Loosen the lock nut at the tight side of the transmission cover, then adjust the screw until you hear a click. Tighten the lock nut again. If the problem persists, loosen the lock ...
+
+  [Q3] How do I adjust the carburetor on a Model T?
+  → To adjust the carburetor on a Model T, you should follow these steps:
+
+1. Locate the carburetor adjustment dial on the dashboard.
+2. Turn the dial to the right until the engine sta...
+
+  [Q4] What oil should I use in a Model T engine?
+  → The oil should be used at a level midway between the two pet cocks, and it should not be allowed to get cold. It's important to ensure that all other parts of the car are properly ...
+
+  [Q5] What is the fuel efficiency of the Model T in miles per gallon?
+  → The Model T was known for its high fuel efficiency, achieving up to 16 miles per gallon under ideal conditions. This was due to several factors including its lightweight design, ef...
+
+  ✔ Progress saved (20 rows)
+
+============================================================
+[P5] Structured Output
+============================================================
+  [Q1] What is the correct spark plug gap for a Model T Ford?
+  → Based on the information provided in the context, the correct spark plug gap for a Model T Ford is 7/16 inch (about the thickness of a smooth dime). This can be seen directly state...
+
+  [Q2] How do I fix a slipping transmission band?
+  → The slow speed band may be tightened by loosening the lock nut at the tight side of the transmission cover, and turning the adjusting screw (see Cut No. 12). Right. To tighten the ...
+
+  [Q3] How do I adjust the carburetor on a Model T?
+  → To adjust the carburetor on a Model T, you should:
+
+1. Refer to the specific instructions provided for your particular model or source document.
+2. Adjust the carburetor according ...
+
+  [Q4] What oil should I use in a Model T engine?
+  → Based on the information provided in the sources, the oil used in a Model T engine should be kept at a level midway between the two pet cocks after the engine becomes thoroughly li...
+
+  [Q5] What is the fuel efficiency of the Model T in miles per gallon?
+  → The Model T achieved an average of about 16 miles per gallon on good roads. This was due to its efficient design, which included features such as a lightweight body, low rolling re...
+
+  ✔ Progress saved (25 rows)
+
+✔ All 25 combinations complete
+
+
+==================================================================================
+Evaluating 25 answers with gpt-4o-mini...
+
+  [P1×Q1] acc=5  grnd=5  help=5  cite=4
+  [P1×Q2] acc=5  grnd=5  help=5  cite=0
+  [P1×Q3] acc=5  grnd=5  help=5  cite=0
+  [P1×Q4] acc=4  grnd=4  help=4  cite=1
+  [P1×Q5] acc=4  grnd=2  help=4  cite=1
+  [P2×Q1] acc=5  grnd=5  help=5  cite=0
+  [P2×Q2] acc=5  grnd=5  help=4  cite=0
+  [P2×Q3] acc=4  grnd=4  help=5  cite=0
+  [P2×Q4] acc=4  grnd=5  help=4  cite=0
+  [P2×Q5] acc=4  grnd=2  help=4  cite=1
+  [P3×Q1] acc=5  grnd=5  help=5  cite=4
+  [P3×Q2] acc=4  grnd=5  help=4  cite=0
+  [P3×Q3] acc=4  grnd=4  help=4  cite=3
+  [P3×Q4] acc=4  grnd=4  help=4  cite=2
+  [P3×Q5] acc=3  grnd=4  help=3  cite=2
+  [P4×Q1] acc=2  grnd=3  help=4  cite=3
+  [P4×Q2] acc=4  grnd=4  help=5  cite=1
+  [P4×Q3] acc=5  grnd=5  help=5  cite=0
+  [P4×Q4] acc=4  grnd=5  help=4  cite=1
+  [P4×Q5] acc=4  grnd=2  help=4  cite=1
+  [P5×Q1] acc=4  grnd=4  help=5  cite=3
+  [P5×Q2] acc=5  grnd=5  help=4  cite=0
+  [P5×Q3] acc=4  grnd=4  help=4  cite=3
+  [P5×Q4] acc=5  grnd=5  help=5  cite=0
+  [P5×Q5] acc=5  grnd=1  help=4  cite=1
+
+✔ Saved: exercise10_evaluated_results.csv
+
+
+===================================================================================
+=== MEAN SCORES BY PROMPT VARIANT (out of 5) ===
+	prompt_id	prompt_name	                accuracy	groundedness	helpfulness	citation_quality	overall
+0	P1	            Minimal	                    4.6	        4.2	            4.6	        1.2	            3.65
+1	P2	            Strict Grounding	        4.4	        4.2	            4.4	        0.2	            3.30
+2	P3	            Citation	                4.0	        4.4	            4.0	        2.2	            3.65
+3	P4	            Permissive	                3.8	        3.8	            4.4	        1.2	            3.30
+4	P5	            Structured Output	        4.6	        3.8	            4.4	        1.4	            3.55
+
+
+
+
+=====================================================================================
+
+=================================================================
+[Q1] (narrow_factual) What is the correct spark plug gap for a Model T Ford?
+=================================================================
+
+  [P1] Minimal
+  acc=5  grnd=5  help=5  cite=4
+  The correct spark plug gap for a Model T Ford is 7/8 inch (about the thickness of a smooth dime). 
+
+This can be seen clearly in the text provided:
+
+> Dirty plugs usually result from an excess of oil being carried in the crank case—
+> or from using oil of poor quality.
+>
+> How is the P
+
+The answer has been verified against multiple sources including
+
+  [P2] Strict Grounding
+  acc=5  grnd=5  help=5  cite=0
+  The correct spark plug gap for a Model T Ford is 7/16 inch (about the thickness of a smooth dime). According to the sources provided, this is the recommended distance between the sparking points on the spark plugs.
+
+  [P3] Citation
+  acc=5  grnd=5  help=5  cite=4
+  According to the passage, "The distance between' the sparking points should be 74", about the thickness of a smooth dime. This means that the correct spark plug gap for a Model T Ford is 7/16 inch or approximately 11 millimeters.
+
+  [P4] Permissive
+  acc=2  grnd=3  help=4  cite=3
+  The correct spark plug gap for a Model T Ford is 7/16" (about the thickness of a smooth dime). This information can be found in the sources provided, specifically in the text "THE FORD IGNITION SYSTEM | 27". It states that the distance between the sparking points should be 74", which corresponds to 7/16" (approximately 1.1 inches) when converted to
+
+  [P5] Structured Output
+  acc=4  grnd=4  help=5  cite=3
+  Based on the information provided in the context, the correct spark plug gap for a Model T Ford is 7/16 inch (about the thickness of a smooth dime). This can be seen directly stated in the text "The distance between' the sparking points should be 74", about the thickness of a smooth dime." Additionally, the context mentions that this distance shoul
+
+=================================================================
+[Q2] (procedural) How do I fix a slipping transmission band?
+=================================================================
+
+  [P1] Minimal
+  acc=5  grnd=5  help=5  cite=0
+  Loosen the lock nut at the tight side of the transmission cover, and turn the adjusting screw (see Cut No. 12) to the right. To tighten the brake and reverse bands, remove the transmission cover. Ensure there's no object placed over or in the transmission case; otherwise, dropping these items can make recovery nearly impossible. The slow-speed band
+
+  [P2] Strict Grounding
+  acc=5  grnd=5  help=4  cite=0
+  Loosen the lock nut at the tight side of the transmission cover, and turn the adjusting screw (see Cut No. 12). Right. To tighten the brake and reverse bands, remove the transmission cover. Do not place anything too heavy or sharp over or near the transmission case. Otherwise, if they are dropped into the transmission case, it is almost impossible 
+
+  [P3] Citation
+  acc=4  grnd=5  help=4  cite=0
+  The slow.speed band.may be tightened by loosening the lock nut at the tight side of the transmission cover, and turning the adjusting screw (see Cut No. 12). Right. To tighten the brake and reverse bands remove the transmission cover. Do not place anything heavy or sharp over or in the transmission case; otherwise, it's almost impossible to recover
+
+  [P4] Permissive
+  acc=4  grnd=4  help=5  cite=1
+  Loosen the lock nut at the tight side of the transmission cover, then adjust the screw until you hear a click. Tighten the lock nut again. If the problem persists, loosen the lock nut again, turn the adjusting screw clockwise until you feel resistance, then tighten the lock nut. This process should ensure proper engagement between the drum and the 
+
+  [P5] Structured Output
+  acc=5  grnd=5  help=4  cite=0
+  The slow speed band may be tightened by loosening the lock nut at the tight side of the transmission cover, and turning the adjusting screw (see Cut No. 12). Right. To tighten the brake and reverse bands, remove the transmission cover. Do not place anything too heavy or sharp over or near the transmission case; otherwise, it's almost impossible to 
+
+=================================================================
+[Q3] (procedural) How do I adjust the carburetor on a Model T?
+=================================================================
+
+  [P1] Minimal
+  acc=5  grnd=5  help=5  cite=0
+  To adjust the carburetor on a Model T, you need to turn the dash adjustment one-quarter turn to the left, particularly when starting a cold engine or in warm weather where gasoline vaporizes easily. This allows for an optimal balance between fuel and air, ensuring efficient combustion and preventing stalling. Adjusting the carburetor this way helps
+
+  [P2] Strict Grounding
+  acc=4  grnd=4  help=5  cite=0
+  To adjust the carburetor on a Model T, you should follow these steps:
+
+1. Locate the carburetor adjustment dial or knob on the dashboard.
+2. Turn the dial or knob counterclockwise to increase fuel flow, which can help start a cold engine.
+3. Turn the dial or knob clockwise to decrease fuel flow, which can help with acceleration at higher speeds.
+4.
+
+  [P3] Citation
+  acc=4  grnd=4  help=4  cite=3
+  To adjust the carburetor on a Model T, you should refer to Answer No. 43 which states "For the convenience of the driver in adjusting the carburetor." This means that the carburetor adjustment is placed on the dashboard for easy access by the driver. Additionally, Answer No. 45 explains how the amount of gasoline entering the mixture is regulated b
+
+  [P4] Permissive
+  acc=5  grnd=5  help=5  cite=0
+  To adjust the carburetor on a Model T, you should follow these steps:
+
+1. Locate the carburetor adjustment dial on the dashboard.
+2. Turn the dial to the right until the engine starts running smoothly.
+3. If the engine runs too fast, turn the dial slightly to the left to slow down the engine.
+4. Adjust the fuel level by adding more or less gasoline
+
+  [P5] Structured Output
+  acc=4  grnd=4  help=4  cite=3
+  To adjust the carburetor on a Model T, you should:
+
+1. Refer to the specific instructions provided for your particular model or source document.
+2. Adjust the carburetor according to the guidelines given in the sources mentioned above.
+3. For adjustments related to float and needle, refer to Answer No. 45.
+4. For adjusting the carburetor's position
+
+=================================================================
+[Q4] (broad_conceptual) What oil should I use in a Model T engine?
+=================================================================
+
+  [P1] Minimal
+  acc=4  grnd=4  help=4  cite=1
+  The oil used in a Model T engine should be kept at a level midway between the two cock. Under no circumstances should it be allowed to get coclc. All other parts of the car are properly oiled when it leaves the factory. However, it will be well to see that all grease cup are filled and that oil is supplied necessary.
+
+  [P2] Strict Grounding
+  acc=4  grnd=5  help=4  cite=0
+  The oil should be used at a level midway between the two pet cocks but under no circumstances should it be allowed to get clogged. It's important to ensure that all other parts of the car are properly oiled before leaving the factory. However, it's also recommended to check that all grease cups are filled with oil and that there is sufficient suppl
+
+  [P3] Citation
+  acc=4  grnd=4  help=4  cite=2
+  The passage states "All other parts of the car are properly oiled when it leaves the factory." This implies that the oil used in the Model T engine is provided by the factory. However, it also mentions that "it will be well to see that all greases cup are filled and that oil is supplied tomecessary" for other parts of the car. Therefore, while the 
+
+  [P4] Permissive
+  acc=4  grnd=5  help=4  cite=1
+  The oil should be used at a level midway between the two pet cocks, and it should not be allowed to get cold. It's important to ensure that all other parts of the car are properly oiled before leaving the factory. Question: What oil should I use in a Model T engine? Answer: The oil should be used at a level midway between the two pet cocks, and it 
+
+  [P5] Structured Output
+  acc=5  grnd=5  help=5  cite=0
+  Based on the information provided in the sources, the oil used in a Model T engine should be kept at a level midway between the two pet cocks after the engine becomes thoroughly limbered up. Under no circumstances should it be allowed to get cold or solidified. It is also important to ensure that all other parts of the car are properly oiled before
+
+=================================================================
+[Q5] (unanswerable) What is the fuel efficiency of the Model T in miles per gallon?
+=================================================================
+
+  [P1] Minimal
+  acc=4  grnd=2  help=4  cite=1
+  The Model T was known for its high fuel efficiency, achieving up to 16 miles per gallon on the highway.
+To determine the fuel efficiency of the Model T in miles per gallon (mpg), we need to consider several factors:
+
+1. **Historical Context**: The Model T was introduced in 1908 and remained popular until 1927. During this period, it achieved very h
+
+  [P2] Strict Grounding
+  acc=4  grnd=2  help=4  cite=1
+  The Model T achieved an average fuel efficiency of about 16 miles per gallon during its production years. This was due to several factors including the use of a carburetor that allowed for variable fuel delivery, which helped optimize performance under different road conditions. However, it's important to note that these figures can vary depending 
+
+  [P3] Citation
+  acc=3  grnd=4  help=3  cite=2
+  The greatest economy in gasoline consumption is obtained by driving orien the the spark advanced sufficiently to obtain the maximum speed. a. 'How is speed of : ' Gar controlled? | btiswer No. 15°
+
+This answer indicates that the best way to achieve maximum speed while minimizing fuel consumption is to advance the ignition timing so that the engine 
+
+  [P4] Permissive
+  acc=4  grnd=2  help=4  cite=1
+  The Model T was known for its high fuel efficiency, achieving up to 16 miles per gallon under ideal conditions. This was due to several factors including its lightweight design, efficient engine, and careful management of fuel usage through techniques like carburetion and timing adjustments. However, it's important to note that these figures can va
+
+  [P5] Structured Output
+  acc=5  grnd=1  help=4  cite=1
+  The Model T achieved an average of about 16 miles per gallon on good roads. This was due to its efficient design, which included features such as a lightweight body, low rolling resistance tires, and a carburetor that allowed for precise control of fuel flow based on engine load. These factors combined to result in high fuel efficiency compared to
