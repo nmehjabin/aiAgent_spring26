@@ -1,0 +1,31 @@
+corpus,question,gpt4o_mini_answer,hallucinated,factually_correct,admits_uncertainty,note_for_evaluator
+MODEL_T,How do I adjust the carburetor on a Model T?,"To adjust the carburetor on a Model T Ford, follow these steps:
+
+1. **Warm Up the Engine**: Start the engine and let it warm up to operating temperature.
+
+2. **Idle Adjustment**: Locate the idle adjustment screw on the carburetor. Turn it clockwise to increase the idle speed and counterclockwise to decrease it. Adjust until the engine runs smoothly at idle.
+
+3. **Main Mixture Adjustment**: Find the main mixture adjustment screw. Start with it turned in (clockwise) until it lightly seats, then back it out about 1.5 to 2 turns. Fine-tune this setting while the engine is running to achieve the best performance.
+
+4. **Throttle Adjustment**: Adjust the throttle lever to ensure it opens fully when the accelerator pedal is pressed. Check the linkage for proper operation.
+
+5. **Check for Leaks**: Inspect for any fuel leaks around the carburetor and ensure all connections are tight.
+
+6. **Test Drive**: Take the car for a short drive to see how it performs. Make further adjustments as necessary based on engine response.
+
+Always refer to the specific service manual for your Model T for detailed instructions and specifications.",,,,Answer is in the Model T service manual (1919)
+MODEL_T,What is the correct spark plug gap for a Model T Ford?,"The correct spark plug gap for a Model T Ford is typically between 0.025 to 0.030 inches (0.635 to 0.762 mm). It's best to check the specific recommendations for your engine, as variations may exist based on modifications or specific models.",,,,Manual states ~7/16 inch (about the thickness of a smooth dime)
+MODEL_T,How do I fix a slipping transmission band?,"Fixing a slipping transmission band typically involves several steps:
+
+1. **Check Fluid Level and Condition**: Ensure that the transmission fluid is at the correct level and is in good condition. Low or dirty fluid can cause slipping.
+
+2. **Adjust the Band**: Some transmissions have adjustable bands. If yours does, locate the adjustment screw and follow the manufacturer's specifications for tightening.
+
+3. **Replace the Transmission Filter**: A clogged filter can restrict fluid flow, leading to slipping. Replacing the filter and fluid can help.
+
+4. **Inspect for Damage**: Check for worn or damaged bands, clutches, or other internal components. If any parts are damaged, they will need to be replaced.
+
+5. **Consult a Professional**: If the issue persists after these steps, it may be necessary to take the vehicle to a professional mechanic or transmission specialist for a thorough diagnosis and repair.
+
+Always refer to your vehicle's service manual for specific instructions related to your transmission type.",,,,"Manual describes loosening lock-nut and adjusting screw, Cut No. 12"
+MODEL_T,What oil should I use in a Model T engine?,"For a Model T engine, it is recommended to use a non-detergent motor oil with a viscosity of 30 weight. Some owners also use 10W-30 or 10W-40 oils, especially in colder climates. It's important to avoid modern detergent oils, as they can cause issues with the engine's design and lubrication system.",,,,Manual discusses oil level using pet cocks; does not specify modern viscosity grades

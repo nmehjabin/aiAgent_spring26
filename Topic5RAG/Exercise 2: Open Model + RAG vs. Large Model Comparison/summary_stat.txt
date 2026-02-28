@@ -1,0 +1,15 @@
+
+Question: Which questions does GPT 4o Mini answer correctly? 
+==================================================
+Corpus: MODEL_T  (n=4)
+==================================================
+  Hallucinated        : 2 / 4
+  Factually correct   : 0 / 4
+  Admits uncertainty  : 3 / 4
+
+==================================================
+Corpus: CONGRESSIONAL_RECORD  (n=4)
+==================================================
+  Hallucinated        : 2 / 4
+  Factually correct   : 0 / 4
+  Admits uncertainty  : 2 / 4
