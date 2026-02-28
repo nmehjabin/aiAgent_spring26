@@ -1,0 +1,10 @@
+{
+  "topic": "astronomy",
+  "correct": 56,
+  "total": 152,
+  "accuracy": 36.84210526315789,
+  "execution_time_seconds": 103.09444808959961,
+  "execution_time_minutes": 1.7182408014933268,
+  "model": "llama3.2:1b",
+  "timestamp": "20260202_175847"
+}

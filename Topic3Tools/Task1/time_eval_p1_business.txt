@@ -1,0 +1,63 @@
+
+======================================================================
+Llama 3.2-1B MMLU Evaluation - Humanities Topic
+======================================================================
+
+======================================================================
+Environment Check
+======================================================================
+ Ollama server is running
+ Model 'llama3.2:1b' is available
+
+======================================================================
+Configuration
+======================================================================
+Model: llama3.2:1b
+Topic: business_ethics
+Ollama URL: http://localhost:11434/api/generate
+Start time: 2026-02-02 22:46:20
+======================================================================
+
+
+======================================================================
+Evaluating topic: business_ethics
+======================================================================
+
+✓ Dataset loaded: 100 questions
+
+Starting evaluation...
+
+Evaluating business_ethics:   0% 0/100 [00:00<?, ?it/s]
+--- Question 1 ---
+Q: _______ such as bitcoin are becoming increasingly mainstream and have a whole host of associated eth...
+Predicted: A | Correct: C | ✗
+Evaluating business_ethics:   1% 1/100 [00:00<01:06,  1.50it/s]
+--- Question 2 ---
+Q: Typical advertising regulatory bodies suggest, for example that adverts must not: encourage ________...
+Predicted: B | Correct: B | ✓
+Evaluating business_ethics:   2% 2/100 [00:01<00:57,  1.70it/s]
+--- Question 3 ---
+Q: ______ are the obligations of workers towards their employer, based on individual contracts and wide...
+Predicted: D | Correct: D | ✓
+Evaluating business_ethics: 100% 100/100 [00:37<00:00,  2.69it/s]
+
+======================================================================
+Results for business_ethics:
+Correct: 46/100
+Accuracy: 46.00%
+======================================================================
+
+======================================================================
+Timing Summary
+======================================================================
+Total execution time: 40.23 seconds
+                      0.67 minutes
+Time per question:    0.40 seconds
+======================================================================
+
+✓ Results saved to: results_business_ethics_20260202_224700.json
+
+
+real	0m41.467s
+user	0m1.779s
+sys	0m0.196s

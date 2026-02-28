@@ -1,0 +1,63 @@
+
+======================================================================
+Llama 3.2-1B MMLU Evaluation - Mathematics Topic
+======================================================================
+
+======================================================================
+Environment Check
+======================================================================
+ Ollama server is running
+ Model 'llama3.2:1b' is available
+
+======================================================================
+Configuration
+======================================================================
+Model: llama3.2:1b
+Topic: astronomy
+Ollama URL: http://localhost:11434/api/generate
+Start time: 2026-02-02 22:47:20
+======================================================================
+
+
+======================================================================
+Evaluating topic: astronomy
+======================================================================
+
+ Dataset loaded: 152 questions
+
+Starting evaluation...
+
+Evaluating astronomy:   0% 0/152 [00:00<?, ?it/s]
+--- Question 1 ---
+Q: What is true for a type-Ia ("type one-a") supernova?...
+Predicted: D | Correct: A | ✗
+Evaluating astronomy:   1% 1/152 [00:00<00:43,  3.46it/s]
+--- Question 2 ---
+Q: If you know both the actual brightness of an object and its apparent brightness from your location t...
+Predicted: D | Correct: D | ✓
+Evaluating astronomy:   1% 2/152 [00:00<00:50,  2.97it/s]
+--- Question 3 ---
+Q: Why is the sky blue?...
+Predicted: A | Correct: C | ✗
+Evaluating astronomy: 100% 152/152 [00:56<00:00,  2.68it/s]
+
+======================================================================
+Results for astronomy:
+Correct: 53/152
+Accuracy: 34.87%
+======================================================================
+
+======================================================================
+Timing Summary
+======================================================================
+Total execution time: 59.79 seconds
+                      1.00 minutes
+Time per question:    0.39 seconds
+======================================================================
+
+✓ Results saved to: results_astronomy_20260202_224820.json
+
+
+real	1m1.037s
+user	0m1.851s
+sys	0m0.189s
