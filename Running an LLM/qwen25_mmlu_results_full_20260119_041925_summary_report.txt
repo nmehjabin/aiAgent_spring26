@@ -1,0 +1,88 @@
+======================================================================
+MMLU EVALUATION SUMMARY REPORT
+======================================================================
+
+Evaluation Date: 20260119_041925
+Device: cpu
+Number of Subjects: 10
+Quantization: None
+Verbose Mode: False
+
+----------------------------------------------------------------------
+MODEL RESULTS
+----------------------------------------------------------------------
+
+Model: Qwen/Qwen2.5-0.5B-Instruct
+  Overall Accuracy: 9.06%
+  Correct: 124/1369
+  Real Time: 20.28 minutes
+  CPU Time: 9409.57s
+  User Time: 9394.17s
+  System Time: 15.40s
+
+  Per-Subject Results:
+    abstract_algebra: 3.00% (3/100)
+    anatomy: 8.89% (12/135)
+    astronomy: 9.21% (14/152)
+    business_ethics: 8.00% (8/100)
+    clinical_knowledge: 9.06% (24/265)
+    college_biology: 8.33% (12/144)
+    college_chemistry: 11.00% (11/100)
+    college_computer_science: 14.00% (14/100)
+    college_mathematics: 5.00% (5/100)
+    college_medicine: 12.14% (21/173)
+
+Model: Qwen/Qwen2.5-1.5B-Instruct
+  Overall Accuracy: 45.80%
+  Correct: 627/1369
+  Real Time: 67.04 minutes
+  CPU Time: 31396.27s
+  User Time: 31372.41s
+  System Time: 23.86s
+
+  Per-Subject Results:
+    abstract_algebra: 12.00% (12/100)
+    anatomy: 42.96% (58/135)
+    astronomy: 59.21% (90/152)
+    business_ethics: 63.00% (63/100)
+    clinical_knowledge: 52.45% (139/265)
+    college_biology: 54.17% (78/144)
+    college_chemistry: 34.00% (34/100)
+    college_computer_science: 39.00% (39/100)
+    college_mathematics: 25.00% (25/100)
+    college_medicine: 51.45% (89/173)
+
+Model: Qwen/Qwen2.5-3B-Instruct
+  Overall Accuracy: 62.38%
+  Correct: 854/1369
+  Real Time: 145.18 minutes
+  CPU Time: 69201.34s
+  User Time: 69173.60s
+  System Time: 27.74s
+
+  Per-Subject Results:
+    abstract_algebra: 46.00% (46/100)
+    anatomy: 64.44% (87/135)
+    astronomy: 71.71% (109/152)
+    business_ethics: 75.00% (75/100)
+    clinical_knowledge: 70.19% (186/265)
+    college_biology: 71.53% (103/144)
+    college_chemistry: 46.00% (46/100)
+    college_computer_science: 55.00% (55/100)
+    college_mathematics: 35.00% (35/100)
+    college_medicine: 64.74% (112/173)
+
+----------------------------------------------------------------------
+SUBJECTS EVALUATED
+----------------------------------------------------------------------
+
+1. abstract_algebra
+2. anatomy
+3. astronomy
+4. business_ethics
+5. clinical_knowledge
+6. college_biology
+7. college_chemistry
+8. college_computer_science
+9. college_mathematics
+10. college_medicine
