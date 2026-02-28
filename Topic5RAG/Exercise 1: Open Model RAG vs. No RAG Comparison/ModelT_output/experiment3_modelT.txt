@@ -1,0 +1,95 @@
+Question: What is the CEO's favorite color?
+
+============================================================
+RETRIEVED CONTEXT:
+============================================================
+[Source: ModelT-01-10-ocr.pdf, Relevance: 0.185]
+[Page 1]
+For Owners and Operators
+of Ford Cars and Trucks
+Published by J
+FORD MOTOR. COMPANY
+Detroit, Michigan, U.S. A. .
+
+
+[Page 2]
+Ss Foreword
+' is a significant fact that nearly all Ford cara are driven by
+laymen—by owners, who in the. great majority of cases have
+FOr no practical experience with things mechanical.
+- ' Ford sttvice statichs distributed throughout the civilized world —
+N ' where Sdfust i A wit
+But while it is not imperative, it is, however, altogether desir-
+able that every Ford owner sh
+
+---
+
+[Source: Ford-Model-T-Man-1919-ocr.pdf, Relevance: 0.185]
+[Page 1]
+For Owners and Operators
+of Ford Cars and Trucks
+Published by J
+FORD MOTOR. COMPANY
+Detroit, Michigan, U.S. A. .
+
+
+[Page 2]
+Ss Foreword
+' is a significant fact that nearly all Ford cara are driven by
+laymen—by owners, who in the. great majority of cases have
+FOr no practical experience with things mechanical.
+- ' Ford sttvice statichs distributed throughout the civilized world —
+N ' where Sdfust i A wit
+But while it is not imperative, it is, however, altogether desir-
+able that every Ford owner sh
+
+---
+
+[Source: ModelT-01-10.txt, Relevance: 0.179]
+For Owners and Operators
+
+of Ford Cars and Trucks
+
+Published by J
+FORD MOTOR. COMPANY
+Detroit, Michigan, U.S. A. .
+
+
+
+Ss Foreword
+
+' is a significant fact that nearly all Ford cara are driven by
+laymen—by owners, who in the. great majority of cases have
+FOr no practical experience with things mechanical.
+
+- ' Ford sttvice statichs distributed throughout the civilized world —
+N ' where Sdfust i A wit
+
+---
+
+[Source: Ford-Model-T-Man-1919.txt, Relevance: 0.179]
+For Owners and Operators
+
+of Ford Cars and Trucks
+
+Published by J
+FORD MOTOR. COMPANY
+Detroit, Michigan, U.S. A. .
+
+
+
+Ss Foreword
+
+' is a significant fact that nearly all Ford cara are driven by
+laymen—by owners, who in the. great majority of cases have
+FOr no practical experience with things mechanical.
+
+- ' Ford sttvice statichs distributed throughout the civilized world —
+N ' where Sdfust i A wit
+
+---
+
+[Source: ModelT-41-50.txt, Relevance: 0.172]
+nd
+============================================================
+
