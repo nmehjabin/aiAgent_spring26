@@ -1,0 +1,88 @@
+=== ANSWERS BY QUERY × CHUNK SIZE ===
+
+─────────────────────────────────────────────────────────────────
+[Q1] (narrow_factual)
+What is the correct spark plug gap for a Model T Ford?
+─────────────────────────────────────────────────────────────────
+
+  chunk_size= 128  top_score=0.6039  avg_score=0.5844  total_chunks=3,353
+  Answer: The correct spark plug gap for a Model T Ford is approximately 0.03 inches (0.76 mm). This value was determined by analyzing multiple sources including the original text and OCR scans of historical documents related to the Ford Model T engine assembly process. The gap size helps ensure proper igniti
+
+  chunk_size= 512  top_score=0.5627  avg_score=0.5355  total_chunks=888
+  Answer: The correct spark plug gap for a Model T Ford is 7/8 inch or approximately 0.875 inches. This value was mentioned in multiple sources including the ModelT-11-20-ocr.pdf, Ford-Model-T-Man-1919-ocr.pdf, ModelT-21-30.txt, and Ford-Model-T-Man-1919.txt documents. It's important to note that this measure
+
+  chunk_size=2048  top_score=0.5351  avg_score=0.5129  total_chunks=220
+  Answer: The correct spark plug gap for a Model T Ford is 7/16 inch, about the thickness of a smooth dime.
+
+This answer is derived directly from the text provided, specifically from the passage discussing how to adjust the spark plug gap for the Model T Ford engine. The relevant excerpt states:
+
+"How is the 
+
+─────────────────────────────────────────────────────────────────
+[Q2] (procedural)
+How do I fix a slipping transmission band?
+─────────────────────────────────────────────────────────────────
+
+  chunk_size= 128  top_score=0.5198  avg_score=0.5088  total_chunks=3,353
+  Answer: The slow speed band may be tightened by loosening the lock nut at the tight side of the transmission cover. If that doesn't work, you can try tightening the adjusting nuts on the shafts to the right. However, if the problem persists, it might be necessary to replace the entire transmission assembly.
+
+  chunk_size= 512  top_score=0.5174  avg_score=0.5110  total_chunks=888
+  Answer: Loosen the lock nut at the tight side of the transmission cover, then adjust the screw until it's tight. Remove the transmission cover, and turn the adjusting nuts on the shafts to the right. Ensure the bands don't drag the drums when disengaged; this can cause overheating of the motor. [Source: Mod
+
+  chunk_size=2048  top_score=0.4549  avg_score=0.4307  total_chunks=220
+  Answer: If the transmission bands are slipping, loosen the lock nut on the transmission cover and adjust the tightening screw. Ensure that the bands do not drag the drums when disengaging, as they can cause overheating of the motor. Tighten the brake and reverse bands by removing the transmission cover and 
+
+─────────────────────────────────────────────────────────────────
+[Q3] (procedural)
+How do I adjust the carburetor on a Model T?
+─────────────────────────────────────────────────────────────────
+
+  chunk_size= 128  top_score=0.6446  avg_score=0.6297  total_chunks=3,353
+  Answer: To adjust the carburetor on a Model T, you should turn it to the right as far as possible without reducing speed. This will ensure that the gasoline is mixed with air properly and efficiently for optimal performance. The carburetor has only one adjustment point, which allows for precise control over
+
+  chunk_size= 512  top_score=0.6096  avg_score=0.5799  total_chunks=888
+  Answer: To adjust the carburetor on a Model T, you need to advance the throttle lever to the sixth notch while retarding the spark about the fourth notch. Cut off the gasoline flow by turning the needle valve to the right until the engine starts to misfire, then gradually increase the gasoline feed by openi
+
+  chunk_size=2048  top_score=0.5348  avg_score=0.5064  total_chunks=220
+  Answer: For the convenience of the driver in adjusting the carburetor. After the new car has become thoroughly worked in, the driver should observe the angle ofthe carburetor adjusting rod at which the engine runs most satisfactorily. In cold weather it will probably be found necessary to turn the dash adju
+
+─────────────────────────────────────────────────────────────────
+[Q4] (broad_conceptual)
+What oil should I use in a Model T engine?
+─────────────────────────────────────────────────────────────────
+
+  chunk_size= 128  top_score=0.5003  avg_score=0.4825  total_chunks=3,353
+  Answer: You should use WOT Gear Broetectit and carry it at a level with the upper oil plug, as required by the manufacturer's instructions. This is important because the original equipment (OE) parts were designed specifically for this purpose. Additionally, you should ensure that there is the correct amoun
+
+  chunk_size= 512  top_score=0.4029  avg_score=0.3876  total_chunks=888
+  Answer: Use light machine oil, such as Shell Oil Company's "Light Machine Oil" or Mobil Oil Co.'s "Machine Oil."
+
+BACKGROUND INFORMATION:
+
+The Ford Model T was introduced in 1908 and remained in production until 1927. It was one of the most popular automobiles ever made, with millions sold worldwide. The Mo
+
+  chunk_size=2048  top_score=0.4038  avg_score=0.3848  total_chunks=220
+  Answer: Use a heavy grade of semi-finished oil like Mobil Oil C or Whittemore's Worsted Gear Brothert. Carry it at a level with the upper oil plug. Ensure the required amount of lubricant is provided for the truck before it starts moving. This ensures proper lubrication of all parts of the car. It is import
+
+─────────────────────────────────────────────────────────────────
+[Q5] (multi_section)
+What are all the steps to prepare a Model T for winter driving?
+─────────────────────────────────────────────────────────────────
+
+  chunk_size= 128  top_score=0.5120  avg_score=0.4829  total_chunks=3,353
+  Answer: To prepare a Model T for winter driving, you should first ensure that the engine runs smoothly and efficiently at normal temperatures. If the car is started in cold weather, it may be necessary to adjust the carburetor's dash adjustment by turning it one-quarter turn towards the "en" position to all
+
+  chunk_size= 512  top_score=0.3912  avg_score=0.3820  total_chunks=888
+  Answer: Before starting the car, fill the radiator with fresh water and drain any old water. Disconnect the radiator hose, remove the radiator stay rod, take out the two bolts that fasten the radiator to the frame, disconnect the dash at the two supporting brackets, loosen the steering post bracket, and rem
+
+  chunk_size=2048  top_score=0.4268  avg_score=0.4113  total_chunks=220
+  Answer: Before attempting to start the car, fill the radiator with clean fresh water. If perfecty clean water cannot be obtained, it is advisable to strain it through muslin or another suitable material to prevent foreign matter from entering and blocking the radiator's small tubes. The radiator holds appro
+
+
+
+  === RETRIEVAL QUALITY BY CHUNK SIZE ===
+  	top_score	avg_score	score_spread	unique_sources	total_chunks
+chunk_size					
+128	                0.5561	    0.5377	        0.0404	        4.0	3353
+512	                0.4968	    0.4792	        0.0427	        3.8	888
+2048	            0.4711	    0.4492	        0.0590	        4.0	220
