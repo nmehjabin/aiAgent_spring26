@@ -1,0 +1,93 @@
+Question: What is the CEO's favorite color?
+
+============================================================
+RETRIEVED CONTEXT:
+============================================================
+[Source: CREC-2026-01-09.pdf, Relevance: 0.437]
+R 
+(Ms. ANSARI asked and was given 
+permission to address the House for 1 
+minute and to revise and extend her re-
+marks.) 
+Ms. ANSARI. Mr. Speaker, I rise to 
+recognize the incredible accomplish-
+ments of one of my district’s most tal-
+ented public servants and the amazing 
+organization that she helms. 
+Monique Lopez was recently ap-
+pointed as CEO of UMOM New Day 
+Center.
+
+---
+
+[Source: CREC-2026-01-21.txt, Relevance: 0.393]
+uring my lifetime, since I was born,
+CEO pay has increased by over 1,000
+percent, while worker pay has increased by 25 percent. On average,
+right now, a CEO makes more in a single day than a worker does in an entire
+year. The concentration of wealth and
+power has given a small group of
+superelites the ability to make all the
+big decisions in this country, and they
+have used their power and influence to
+further rig our economy and politics to
+benefit themselves at the expense of
+everyone else.
+
+---
+
+[Source: CREC-2026-01-14.txt, Relevance: 0.388]
+o, Mr. Chairman, the importance of adequate funding for the Securities and Exchange
+Commission, which is included in this
+bill. Strong capital markets are essential to American economic leadership,
+and ensuring that the SEC has the resources, clear rules, and effective oversight to carry out its mission is essential.
+Mr. Chairman, I thank the chairman
+for his leadership. I appreciate the
+time today, and I urge all my colleagues to vote ‘‘yes.’’
+Ms. DELAURO. Mr.
+
+---
+
+[Source: CREC-2026-01-15.txt, Relevance: 0.382]
+ns and publicly
+traded companies and what the SEC
+
+E:\CR\FM\K15JA7.005
+
+H15JAPT1
+
+DMwilson on DSK7X7S144PROD with HOUSE
+
+H902
+
+has been doing, we are not talking apples and oranges. We are talking apples
+and pinecones. They might both grow
+on trees, but they are not anything
+like what the reality is.
+He is talking about being a CEO. One
+of our colleagues was talking about
+being a CEO of a wind company. Mr.
+Speaker, that is, by definition, one of
+those ESG companies.
+
+---
+
+[Source: CREC-2026-01-28.txt, Relevance: 0.375]
+ghway
+circling Milwaukee. Why these colors?
+Well, for one, because they are the colors of Milwaukee’s own Marquette University. And for two, because of the
+hard work of a woman named Rana Altenburg.
+With more than 30 years serving as
+Marquette University associate vice
+president for public affairs, Rana Altenburg’s legacy reaches far beyond
+choosing those two colors while she
+chaired the Marquette Interchange
+Color Committee.
+============================================================
+
+
+Answer: Based on the information provided in the context, there is no mention of any specific CEO or their favorite color. Therefore, the correct answer is:
+
+The context does not provide information about the CEO's favorite color. 
+
+Relevant quote from the context: "Why these colors? Well, for one, because they are the colors of Milwaukee's own Marquette University. And for two, because of the hard work of a woman named Rana Altenburg." This statement discusses the choice of colors for a project related to Marquette University, but it does not indicate whether Rana Altenburg, who chaired the Marquette Interchange Color Committee, had a favorite color or if any other CEO mentioned in the context had a favorite color. To determine the CEO's favorite color, additional information would be needed.
