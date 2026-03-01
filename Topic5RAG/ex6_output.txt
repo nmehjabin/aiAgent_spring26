@@ -1,0 +1,137 @@
+==========================================================================================
+[FORMAL] What is the recommended maintenance schedule for the engine?
+==========================================================================================
+
+  (1) score=0.4001  id=ModelT-41-50-ocr.pdf::chunk12
+      iridie, fill the hub cap with grease and screw it in place on the hub. Hi ‘ten should the , Booties be labricuted? ' Answer No. 93 Every three or four months the wheels should be removed, the old grease taken out and the hubs and bearings thoroughly cleansed w...
+
+  (2) score=0.4001  id=Ford-Model-T-Man-1919-ocr.pdf::chunk236
+      iridie, fill the hub cap with grease and screw it in place on the hub. Hi ‘ten should the , Booties be labricuted? ' Answer No. 93 Every three or four months the wheels should be removed, the old grease taken out and the hubs and bearings thoroughly cleansed w...
+
+  (3) score=0.3900  id=ModelT-01-10-ocr.pdf::chunk49
+      ll the running speeds needed! for drdinery. Ce ee eee ee ee tine ce wae erties Daye eae File the cutk he Denali the: ‘ ng one   [Page 8] oo * - sit + advieable for owners to. ; inst aatisfactory service in the end. Never start out with your car until you aré- ...
+
+  (4) score=0.3900  id=Ford-Model-T-Man-1919-ocr.pdf::chunk49
+      ll the running speeds needed! for drdinery. Ce ee eee ee ee tine ce wae erties Daye eae File the cutk he Denali the: ‘ ng one   [Page 8] oo * - sit + advieable for owners to. ; inst aatisfactory service in the end. Never start out with your car until you aré- ...
+
+  (5) score=0.3821  id=ModelT-41-50.txt::chunk13
+      e, fill the hub cap with grease and screw it in place on the hub.  Hi ‘ten should the , Booties be labricuted? ' Answer No. 93  Every three or four months the wheels should be removed, the old grease taken out and the hubs and bearings thoroughly cleansed with...
+
+==========================================================================================
+[CASUAL] How often should I service the engine?
+==========================================================================================
+
+  (1) score=0.3852  id=ModelT-41-50-ocr.pdf::chunk12
+      iridie, fill the hub cap with grease and screw it in place on the hub. Hi ‘ten should the , Booties be labricuted? ' Answer No. 93 Every three or four months the wheels should be removed, the old grease taken out and the hubs and bearings thoroughly cleansed w...
+
+  (2) score=0.3852  id=Ford-Model-T-Man-1919-ocr.pdf::chunk236
+      iridie, fill the hub cap with grease and screw it in place on the hub. Hi ‘ten should the , Booties be labricuted? ' Answer No. 93 Every three or four months the wheels should be removed, the old grease taken out and the hubs and bearings thoroughly cleansed w...
+
+  (3) score=0.3738  id=ModelT-01-10-ocr.pdf::chunk49
+      ll the running speeds needed! for drdinery. Ce ee eee ee ee tine ce wae erties Daye eae File the cutk he Denali the: ‘ ng one   [Page 8] oo * - sit + advieable for owners to. ; inst aatisfactory service in the end. Never start out with your car until you aré- ...
+
+  (4) score=0.3738  id=Ford-Model-T-Man-1919-ocr.pdf::chunk49
+      ll the running speeds needed! for drdinery. Ce ee eee ee ee tine ce wae erties Daye eae File the cutk he Denali the: ‘ ng one   [Page 8] oo * - sit + advieable for owners to. ; inst aatisfactory service in the end. Never start out with your car until you aré- ...
+
+  (5) score=0.3543  id=ModelT-01-10-ocr.pdf::chunk50
+      . entire Ford orgenization is interested in keeping every individual Ford. car constant operation, at the lowest possible cost. We have known of much dé done to miany cars by unskilled repair men. What attention. Z does the Car need? Answer No. vA mer that a n...
+
+==========================================================================================
+[KEYWORDS] engine maintenance intervals
+==========================================================================================
+
+  (1) score=0.3657  id=ModelT-41-50-ocr.pdf::chunk12
+      iridie, fill the hub cap with grease and screw it in place on the hub. Hi ‘ten should the , Booties be labricuted? ' Answer No. 93 Every three or four months the wheels should be removed, the old grease taken out and the hubs and bearings thoroughly cleansed w...
+
+  (2) score=0.3657  id=Ford-Model-T-Man-1919-ocr.pdf::chunk236
+      iridie, fill the hub cap with grease and screw it in place on the hub. Hi ‘ten should the , Booties be labricuted? ' Answer No. 93 Every three or four months the wheels should be removed, the old grease taken out and the hubs and bearings thoroughly cleansed w...
+
+  (3) score=0.3602  id=ModelT-01-10.txt::chunk52
+      ake a practice of taking care of every repair ' adjustment as soon as its necessity is discovered. This attention requires but  little time and may. avoid delay or possible accident on the road. We aim 19°. deli t f e r mechanical adjustment. Afterwards it is ...
+
+  (4) score=0.3602  id=Ford-Model-T-Man-1919.txt::chunk52
+      ake a practice of taking care of every repair ' adjustment as soon as its necessity is discovered. This attention requires but  little time and may. avoid delay or possible accident on the road. We aim 19°. deli t f e r mechanical adjustment. Afterwards it is ...
+
+  (5) score=0.3490  id=ModelT-01-10-ocr.pdf::chunk49
+      ll the running speeds needed! for drdinery. Ce ee eee ee ee tine ce wae erties Daye eae File the cutk he Denali the: ‘ ng one   [Page 8] oo * - sit + advieable for owners to. ; inst aatisfactory service in the end. Never start out with your car until you aré- ...
+
+==========================================================================================
+[QUESTION_FORM] When do I need to check the engine?
+==========================================================================================
+
+  (1) score=0.4958  id=ModelT-01-10-ocr.pdf::chunk15
+      ll be noticed in the engine. (See chapter on Ignition.) Where should these levers be.when ‘ . ‘ atarting the Engine? Answer No. 3 The spark lever should usually be put in about the third or fourth notch of the quadrant (the notched half-circle on which the lev...
+
+  (2) score=0.4958  id=Ford-Model-T-Man-1919-ocr.pdf::chunk15
+      ll be noticed in the engine. (See chapter on Ignition.) Where should these levers be.when ‘ . ‘ atarting the Engine? Answer No. 3 The spark lever should usually be put in about the third or fourth notch of the quadrant (the notched half-circle on which the lev...
+
+  (3) score=0.4778  id=ModelT-01-10.txt::chunk16
+      e noticed in the engine. (See chapter on Ignition.) Where should these levers be.when ‘ . ‘  atarting the Engine? Answer No. 3  The spark lever should usually be put in about the third or fourth notch of the quadrant (the notched half-circle on which the lever...
+
+  (4) score=0.4778  id=Ford-Model-T-Man-1919.txt::chunk16
+      e noticed in the engine. (See chapter on Ignition.) Where should these levers be.when ‘ . ‘  atarting the Engine? Answer No. 3  The spark lever should usually be put in about the third or fourth notch of the quadrant (the notched half-circle on which the lever...
+
+  (5) score=0.4203  id=ModelT-51-60.txt::chunk15
+      ng above 10 miles per hour. At an engine speed of 15 miles per hour or more the ammeter should show a reading of from 10 to 12. If the engine is running above 15 miles per hour and the ammeter does not show a proper reading, first inspect the terminal posts on...
+
+==========================================================================================
+[INDIRECT] Preventive maintenance requirements for the engine
+==========================================================================================
+
+  (1) score=0.4491  id=ModelT-01-10.txt::chunk52
+      ake a practice of taking care of every repair ' adjustment as soon as its necessity is discovered. This attention requires but  little time and may. avoid delay or possible accident on the road. We aim 19°. deli t f e r mechanical adjustment. Afterwards it is ...
+
+  (2) score=0.4491  id=Ford-Model-T-Man-1919.txt::chunk52
+      ake a practice of taking care of every repair ' adjustment as soon as its necessity is discovered. This attention requires but  little time and may. avoid delay or possible accident on the road. We aim 19°. deli t f e r mechanical adjustment. Afterwards it is ...
+
+  (3) score=0.4431  id=ModelT-01-10-ocr.pdf::chunk50
+      . entire Ford orgenization is interested in keeping every individual Ford. car constant operation, at the lowest possible cost. We have known of much dé done to miany cars by unskilled repair men. What attention. Z does the Car need? Answer No. vA mer that a n...
+
+  (4) score=0.4431  id=Ford-Model-T-Man-1919-ocr.pdf::chunk50
+      . entire Ford orgenization is interested in keeping every individual Ford. car constant operation, at the lowest possible cost. We have known of much dé done to miany cars by unskilled repair men. What attention. Z does the Car need? Answer No. vA mer that a n...
+
+  (5) score=0.4083  id=ModelT-01-10-ocr.pdf::chunk49
+      ll the running speeds needed! for drdinery. Ce ee eee ee ee tine ce wae erties Daye eae File the cutk he Denali the: ‘ ng one   [Page 8] oo * - sit + advieable for owners to. ; inst aatisfactory service in the end. Never start out with your car until you aré- ...
+
+==========================================================================================
+[EXTRA] How frequently do I need to do engine upkeep?
+==========================================================================================
+
+  (1) score=0.3621  id=ModelT-41-50-ocr.pdf::chunk12
+      iridie, fill the hub cap with grease and screw it in place on the hub. Hi ‘ten should the , Booties be labricuted? ' Answer No. 93 Every three or four months the wheels should be removed, the old grease taken out and the hubs and bearings thoroughly cleansed w...
+
+  (2) score=0.3621  id=Ford-Model-T-Man-1919-ocr.pdf::chunk236
+      iridie, fill the hub cap with grease and screw it in place on the hub. Hi ‘ten should the , Booties be labricuted? ' Answer No. 93 Every three or four months the wheels should be removed, the old grease taken out and the hubs and bearings thoroughly cleansed w...
+
+  (3) score=0.3579  id=ModelT-01-10-ocr.pdf::chunk49
+      ll the running speeds needed! for drdinery. Ce ee eee ee ee tine ce wae erties Daye eae File the cutk he Denali the: ‘ ng one   [Page 8] oo * - sit + advieable for owners to. ; inst aatisfactory service in the end. Never start out with your car until you aré- ...
+
+  (4) score=0.3579  id=Ford-Model-T-Man-1919-ocr.pdf::chunk49
+      ll the running speeds needed! for drdinery. Ce ee eee ee ee tine ce wae erties Daye eae File the cutk he Denali the: ‘ ng one   [Page 8] oo * - sit + advieable for owners to. ; inst aatisfactory service in the end. Never start out with your car until you aré- ...
+
+  (5) score=0.3564  id=ModelT-21-30.txt::chunk18
+      on as it has attained any considerable speed. This is accounted for by the fact that at high speeds the increased suction will draw the particles of dust, etc., into the nozzle. By opening the valve needle half a turn and giving the throttle lever two or three...
+
+##########################################################################################
+OVERLAP SUMMARY (Top-5 sets per phrasing)
+##########################################################################################
+   phrasing_a    phrasing_b  overlap_count  jaccard
+       formal        casual              4 0.666667
+       formal         extra              4 0.666667
+       casual         extra              4 0.666667
+       formal      keywords              3 0.428571
+       casual      keywords              3 0.428571
+     keywords      indirect              3 0.428571
+     keywords         extra              3 0.428571
+       casual      indirect              2 0.250000
+       formal      indirect              1 0.111111
+     indirect         extra              1 0.111111
+       formal question_form              0 0.000000
+       casual question_form              0 0.000000
+     keywords question_form              0 0.000000
+question_form      indirect              0 0.000000
+question_form         extra              0 0.000000
+
+Saved:
+ - exercise6_phrasing_retrieval_top5.csv
+ - exercise6_phrasing_overlap.csv
